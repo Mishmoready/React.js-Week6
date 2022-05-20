@@ -51,24 +51,24 @@ Displays the state of the working directory and the staging area
 git status
 ```
 
-### Viewing the Git history
+### Add a remote repository to your local one/Connecting your existing local repo with GitHub.
 
-Default git log
-
-```
-git log
-```
-
-Less detailed version of the log
+Add remote repo URL
 
 ```
-git log --oneline
+git remote add origin REPLACE_WITH_YOUR_GIT_REPO_URL
 ```
 
-More detailed version of the log
+Push the commits in the current branch of your repository to the main branch of the remote called origin.
 
 ```
-git log -p
+git push –u origin main
+```
+
+### Pull the latest code from the remote repo
+
+```
+git pull
 ```
 
 ### Create a clone (or copy) of a remote repository (copying someone else's repo to your computer)
@@ -97,22 +97,28 @@ Push your changes to GitHub
 git push
 ```
 
-### Add a remote repository to your local one/Connecting your existing local repo with GitHub.
-
-Add remote repo URL
-
-```
-git remote add origin REPLACE_WITH_YOUR_GIT_REPO_URL
-```
-
-Push the commits in the current branch of your repository to the main branch of the remote called origin.
-
-```
-git push –u origin main
-```
-
 ### To see all the remotes added to the local git repository
 
 ```
 git remote -v
+```
+
+### Viewing the Git history
+
+Default git log
+
+```
+git log
+```
+
+Less detailed version of the log
+
+```
+git log --oneline
+```
+
+More detailed version of the log
+
+```
+git log -p
 ```
