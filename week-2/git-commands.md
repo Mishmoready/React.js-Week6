@@ -27,7 +27,7 @@ Adding a single file
 git add index.html
 ```
 
-Adding multiple files [separate each filename by a space]
+Adding multiple files (separate each filename by a space)
 
 ```
 git add index.html style.css
@@ -71,7 +71,7 @@ More detailed version of the log
 git log -p
 ```
 
-### Create a clone, or copy of a remote repository (copying someone ekse's repo to your computer)
+### Create a clone (or copy) of a remote repository (copying someone else's repo to your computer)
 
 Create a new Repo on GitHub.com and copy the repo’s URL. Then in your terminal, in the directory you want to clone your repo to, type:
 
@@ -82,19 +82,19 @@ git clone REPLACE_WITH_YOUR_GIT_REPO_URL
 Change Directory into your cloned repo folder.
 
 ```
-	cd YOUR_REPO_NAME
+cd YOUR_REPO_NAME
 ```
 
 Create a new file (e.g. hello.html) inside your cloned repo folder in VSC, then run
 
 ```
-	[add and commit your files]
+[add and commit your files]
 ```
 
 Push your changes to GitHub
 
 ```
-    git push
+git push
 ```
 
 ### Add a remote repository to your local one/Connecting your existing local repo with GitHub.
