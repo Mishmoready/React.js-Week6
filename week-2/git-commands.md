@@ -67,6 +67,8 @@ git push –u origin main
 
 ### Pull the latest code from the remote repo
 
+Pull data from the remote repo when collaborating with a team
+
 ```
 git pull
 ```
