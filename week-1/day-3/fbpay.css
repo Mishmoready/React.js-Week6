@@ -30,7 +30,6 @@ header {
   background-position: right;
 }
 
-
 .button {
   background-color: #d8e4ef;
   margin: 2px 5px;
@@ -61,7 +60,7 @@ p {
   margin: 20px 0px;
   padding: 14px 25px;
   width: 150px;
-  display:block;
+  display: block;
 }
 
 .chatButton:hover {
@@ -75,6 +74,6 @@ p {
 }
 
 a {
-  color:yellowgreen;
+  color: yellowgreen;
   text-decoration: none;
 }
