@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #main {
+        background-color: blue;
+        display: flex;
+        align-items: center; /* Change the vertical alignment of the [child] flexbox items */
+        justify-content: center; /* Change the horizontal alignment of the [child] flexbox items */
+        gap: 50px;
+        /* flex-wrap: wrap; */
+      }
+
+      .el1 {
+        background-color: lightblue;
+        height: 100px;
+      }
+      .el2 {
+        background-color: greenyellow;
+      }
+      .el3 {
+        background-color: goldenrod;
+      }
+      .el4 {
+        background-color: yellow;
+      }
+      .el5 {
+        background-color: pink;
+      }
+
+      .all {
+        /* DEFAULTS */
+        /* flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+        flex: 0 1 100px; /* the Flex property is shorthand for the above 3 properties*/
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="el1 all">My first box</div>
+      <div class="el2 all">My second box</div>
+      <div class="el3 all">My third box</div>
+      <div class="el4 all">My fourth box</div>
+      <div class="el5 all">My fifth box</div>
+    </div>
+  </body>
+</html>
