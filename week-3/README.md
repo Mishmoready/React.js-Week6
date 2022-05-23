@@ -2,7 +2,8 @@
 
 - [1. Datatypes](#1-datatypes)
   - [1.1. Data Types - Beau teaches JavaScript](#11-data-types---beau-teaches-javascript)
-  - [1.2. Javascript Variables & Data Types](#12-javascript-variables--data-types)<!--
+  - [1.2. Javascript Variables & Data Types](#12-javascript-variables--data-types)
+  <!--
 - [2. Functions](#2-functions)
   - [2.1. JavaScript Functions](#21-javascript-functions)
   - [2.2. Javascript Functions & Parameters | Javascript Tutorial For Beginners](#22-javascript-functions--parameters--javascript-tutorial-for-beginners)
