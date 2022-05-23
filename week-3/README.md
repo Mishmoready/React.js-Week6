@@ -26,8 +26,7 @@
 ### 1.2. Javascript Variables & Data Types
 
 - https://www.youtube.com/watch?v=edlFjlzxkSI&ab_channel=DevEd 15:12
-<img src="https://img.youtube.com/vi/edlFjlzxkSI/maxresdefault.jpg" width=480>
-<!--
+  <img src="https://img.youtube.com/vi/edlFjlzxkSI/maxresdefault.jpg" width=480>
 
 ## 2 Functions
 
@@ -70,4 +69,4 @@
 ### 4.3. Regular Expressions (Regex) in JavaScript - tutorial
 
 - https://www.youtube.com/watch?v=909NfO1St0A&t=533s&ab_channel=freeCodeCamp.org 17:15
-  <img src="https://img.youtube.com/vi/909NfO1St0A/maxresdefault.jpg" width=480> -->
+  <img src="https://img.youtube.com/vi/909NfO1St0A/maxresdefault.jpg" width=480>
