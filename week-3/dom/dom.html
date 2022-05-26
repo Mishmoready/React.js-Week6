@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playing with the DOM</title>
+    <script defer src="dom.js"></script>
+  </head>
+  <body>
+    <h1 class="header-class" id="helloWorldHeader">Playing with the DOM</h1>
+
+    <!-- Exercise 1 -->
+    <!-- Change Colour button -->
+    <button onclick="changeColour()">Change colour</button>
+
+    <!-- Counter increment button -->
+    <h2>Counter: <span id="counter">0</span></h2>
+    <button onclick="incrementByOne()">Click to Add 1</button>
+
+    <!-- Mouseout demo just for fun -->
+    <div id="divId">a div!</div>
+    <br /><br />
+
+    <!-- Exercise 2 -->
+    <label>Some input: </label><input type="text" /> Character count:
+    <span id="character-count">0</span>
+    <br />
+    <br />
+    <br />
+
+    <!-- Exercise 3 -->
+
+    <label>Num1: </label><input id="user-input1" type="number" /> <br />
+    <label>Num2: </label><input id="user-input2" type="number" />
+    <p id="sum-result">Result:</p>
+    <button id="sum-btn">Sum</button>
+  </body>
+</html>
