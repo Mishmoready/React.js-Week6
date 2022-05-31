@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shopping list</title>
+    <script>
+        //shoppingList is an array [] of object { item, quantity }
+        let shoppingList = [];
+        function addItem() {
+            //Create an Object and then add the object into shoppingList array
+            let itemToAdd = {
+                "item": document.getElementById("item").value,
+                "quantity": document.getElementById("qty").value
+            };
+            shoppingList.push(itemToAdd);
+            updateDisplay();
+        }
+      
+        function updateDisplay() {
+            //clear the display
+            let content = "";
+            //for each item in the shoppingList array, display item, quantity, and a delete button
+            for (let i of shoppingList) {
+               
+                content += i.item + "x" + i.quantity + "<span onclick=\"deleteItem('" + shoppingList.indexOf(i) + "');\">&#10062;</span> <br />";
+              // <span onclick="deleteItem(shoppingList.indexOf(i))">&#10062</span><br>  
+              //shoppingList.indexOf(i)   => return the index of the object element   
+            }
+
+            document.getElementById("display").innerHTML = content;
+           
+        }
+
+        function deleteItem(itemToDelete) {
+           //delete the item use splice method
+            shoppingList.splice(itemToDelete, 1);
+            updateDisplay()
+        }
+  
+    </script>
+</head>
+
+<body>
+    <h1>Shopping list</h1>
+    <input type="text" id="item"> X
+    <input type="number" id="qty">
+    <button onclick="addItem()">Add Item</button>
+
+    <p id="display"></p>
+</body>
+
+</html>
+
+
+

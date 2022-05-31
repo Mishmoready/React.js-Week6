@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shopping list</title>
+    <script>
+        //shoppingList is an array [] of object { item, quantity }
+        let shoppingList = [];
+        function addItem() {
+            //Create an Object and then add the object into shoppingList array
+            let itemToAdd = {
+                "item": document.getElementById("item").value,
+                "quantity": document.getElementById("qty").value
+            };
+            shoppingList.push(itemToAdd);
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            //clear the display
+            let content = "";
+            //for each item in the shoppingList array, display item, quantity, and a delete button
+            for (let i of shoppingList) {
+
+                content += i.item + " x " + i.quantity + "<span onclick=\"deleteItem('" + shoppingList.indexOf(i) + "');\">&#10062;</span> <br />";
+                // <span onclick="deleteItem(shoppingList.indexOf(i))">&#10062</span><br>  
+                //shoppingList.indexOf(i)   => return the index of the object element   
+            }
+
+            document.getElementById("display").innerHTML = content;
+
+        }
+
+        function deleteItem(itemToDelete) {
+            //delete the item use splice method
+            shoppingList.splice(itemToDelete, 1);
+            updateDisplay()
+        }
+
+        //-----Shopping basket------------------------------------------------------------
+
+        function checkItems() {
+            //split user input into an array
+            let basket = document.getElementById("shoppingBasket").value.toLowerCase().split(",");
+            //e.g. basket = ["x","y","z"]   shoppingList = ["a","b","c","x"]
+
+            //make an array that only includes basket items that are not in the shoppingList
+            //step one:--this will filter every element in shopping list ["a","b","c","x"], let's start with "a"---
+            let arrayDifference = shoppingList.filter(
+                function (shoppingListElement) {
+                    //lets change it to lowerCase first.
+                    let lowerCaseItem = shoppingListElement.item.toLowerCase();
+                    //use basket.indexOf(lowerCaseItem) to check if this shoppingList item in the basket or not;
+                    //if not found will return -1
+                    //indexOf: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
+                    //of course we can use other method like:  array.include or array.some
+                    return basket.indexOf(lowerCaseItem) === -1;
+                }
+            );
+            //at the end arrayDifference will return ["a", "b", "c"] cause these element is not included in the
+            /*shortcut:  let arrayDifference = shoppingList.filter(x => basket.indexOf(x.item.toLowerCase()) === -1); */
+
+
+            //if arrayDifference is not empty, then display all items in the arryDifference
+            if (arrayDifference != []) {
+
+                document.getElementById("reminder").innerHTML = "Here are the items missing:<br />"
+              //display arrayDifference
+                for (let i of arrayDifference) {
+                    document.getElementById("reminder").innerHTML += i.item + " x " + i.quantity + "<br />";
+                }
+            }
+            document.getElementById("reminder").innerHTML += "End of list";
+        }
+        
+
+    </script>
+</head>
+
+<body>
+    <h1>Shopping list</h1>
+    <input type="text" id="item" placeholder="Item. e.g. Tomato"> X
+    <input type="number" id="qty" placeholder="Quantity. e.g. 1">
+    <button onclick="addItem()">Add Item</button>
+
+    <p id="display"></p>
+    <hr>
+    <h1>Shopping Basket</h1>
+    <p>Enter your items separated by commas.</p>
+    <input type="text" id="shoppingBasket" placeholder="e.g. tomato,eggs,milk" />
+    <input type="button" value="Check Items" onclick="checkItems();" />
+    <p id="reminder"></p>
+</body>
+
+</html>

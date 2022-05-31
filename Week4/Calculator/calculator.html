@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <script>
+        let light = true;
+        let formula = "";
+
+        function changeColour() {
+            if (light) {
+                document.getElementById("test").style.color = "orange";
+                document.getElementById("test").innerHTML = "Switch to Light Mode";
+
+
+                document.getElementById("formulaDisplay").style.color = "orange";
+
+                document.body.style.background = "#222222";
+
+                light = false;
+            } else {
+                document.getElementById("test").style.color = "black";
+                document.getElementById("test").innerHTML = "Switch to Dark Mode";
+                document.body.style.background = "white";
+                light = true;
+            }
+        }
+
+        function addToFormula(itemToAdd) {
+            formula = formula + itemToAdd;
+            console.log(formula);
+
+            document.getElementById("formulaDisplay").innerHTML = formula;
+        }
+
+        calculate = () =>
+            (document.getElementById("formulaDisplay").innerHTML = formula + " = " + eval(formula));
+
+        function clearDisplay() {
+            formula = "";
+            document.getElementById("formulaDisplay").innerHTML = formula;
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="test" onclick="changeColour();">Switch to Dark Mode</h1>
+
+
+    <button onclick="addToFormula('1');">1</button>
+    <button onclick="addToFormula('2');">2</button>
+    <button onclick="addToFormula('3');">3</button>
+    <br />
+    <button onclick="addToFormula('4');">4</button>
+    <button onclick="addToFormula('5');">5</button>
+    <button onclick="addToFormula('6');">6</button>
+    <br />
+    <button onclick="addToFormula('7');">7</button>
+    <button onclick="addToFormula('8');">8</button>
+    <button onclick="addToFormula('9');">9</button>
+    <br />
+    <button onclick="addToFormula('0');">0</button>
+    <button onclick="addToFormula('+');">+</button>
+    <button onclick="addToFormula('-');">-</button>
+    <br />
+    <button onclick="addToFormula('*');">*</button>
+    <button onclick="addToFormula('/');">/</button>
+    <button onclick="calculate();">=</button>
+    <button onclick="clearDisplay();">Clear</button>
+
+    <p id="formulaDisplay"></p>
+</body>
+
+</html>
