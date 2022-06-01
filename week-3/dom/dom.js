@@ -1,3 +1,4 @@
+"use strict";
 /// CODE FROM START OF CLASS (separate to today's lesson)
 
 // const myRandomArray = [
@@ -84,3 +85,23 @@ sumBtn.addEventListener("click", function () {
     userInput2.value
   } = ${Number(userInput1.value) + Number(userInput2.value)}`;
 });
+
+// end of lesson
+let myName = "Reuben";
+
+function sayHi() {
+  myName = "obama";
+  console.log(myName + " says good morning");
+  sayHi2();
+  function sayHi2() {
+    console.log(myName + "again");
+  }
+}
+sayHi();
+
+console.log(this);
+const reubs = function () {
+  console.log(this);
+};
+
+reubs();
