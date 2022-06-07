@@ -15,9 +15,8 @@
 // }
 
 // SLIDER Page
-const slides = document.getElementsByClassName("slider__slide");
-const dots = document.getElementsByClassName("slider__dots");
-const dots2 = document.querySelectorAll(".slider__dots");
+const slides = document.querySelectorAll(".slider__slide");
+const dots = document.querySelectorAll(".slider__dots"); // Returns a NodeList which is preferable to an HTML Collection as it doesn't live update
 const prevNavBtn = document.getElementById("nav-button--prev");
 const nextNavBtn = document.getElementById("nav-button--next");
 const caption = document.querySelectorAll(".caption");
@@ -26,7 +25,6 @@ const captionToAdd = document.querySelector("input");
 const photoToCaption = document.getElementById("photos");
 
 console.log(dots);
-console.log(dots2);
 
 // Slider Functionality
 let currentSlide = 0;
@@ -43,17 +41,18 @@ const changeSlide = (moveTo) => {
   if (moveTo < 0) {
     moveTo = slides.length - 1;
   }
-  slides[currentSlide].classList.toggle("active"); // in our slides array (HTML Collection), select the current slide. Remove the 'active' CSS class.
-  dots[currentSlide].classList.toggle("active"); // in our dots array (HTML Collection), select the current dot. Remove the 'active' CSS class.
-  slides[moveTo].classList.toggle("active"); // in our slides array (HTML Collection), select the slide we want to move to, add the 'active' CSS class.
-  dots[moveTo].classList.toggle("active"); // in our dots array (HTML Collection), select the dot we want to move to, add the 'active' CSS class.
+  slides[currentSlide].classList.remove("active"); // in our slides array (HTML Collection), select the current slide. Remove the 'active' CSS class.
+  dots[currentSlide].classList.remove("active"); // in our dots array (HTML Collection), select the current dot. Remove the 'active' CSS class.
+  slides[moveTo].classList.add("active"); // in our slides array (HTML Collection), select the slide we want to move to, add the 'active' CSS class.
+  dots[moveTo].classList.add("active"); // in our dots array (HTML Collection), select the dot we want to move to, add the 'active' CSS class.
 
   currentSlide = moveTo;
 };
 
 // Dot Functionality
-dots2.forEach((dot, index) => {
-  // for each element in the dots2 array (node list), name each element dot, and do the following in each iteration:
+dots.forEach((dot, index) => {
+  // Note forEach method is the only Array method you can use on a NodeList. If you need another method, spread it out into an array first.
+  // for each element in the dots array, name each element dot, and do the following in each iteration:
   // The below logic is executed four times
   console.log(dot, index);
   dot.addEventListener("click", () => {
