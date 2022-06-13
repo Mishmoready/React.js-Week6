@@ -1,6 +1,8 @@
 # Week 5 - React <!-- omit in toc -->
 
 - [1. General React Tutorials](#1-general-react-tutorials)
+
+  - [1.0. What is NPM, and why do we need it? | Tutorial for beginners](#1-general-react-tutorials)
   - [1.1. React JS Course for Beginners - 2021 Tutorial](#11-react-js-course-for-beginners---2021-tutorial)
   - [1.2. React JS Crash Course 2021](#12-react-js-crash-course-2021)
   - [1.3. React JS Course for Beginners - 2021 Tutorial](#13-react-js-course-for-beginners---2021-tutorial)
@@ -23,7 +25,8 @@
   - [4.2. Axios with React like a Pro | Create A Reminder App](#42-axios-with-react-like-a-pro--create-a-reminder-app)
 
 ## 1. General React Tutorials
-
+### 1.0. What is NPM, and why do we need it? | Tutorial for beginners
+- https://youtu.be/P3aKRdUyr0s 0:14:26
 ### 1.1. React JS Course for Beginners - 2021 Tutorial
 - https://www.youtube.com/watch?v=nTeuhbP7wdE&t=17s&ab_channel=freeCodeCamp.org 7:10:27
 
