@@ -1,8 +1,6 @@
-import { useState } from "react";
 import Car from "./Car";
 import Person from "./Person";
 import Counter from "./Counter";
-import Forms from "./Forms";
 
 // Map Method. Like forEach but returns a new array
 const numbers = [1, 4, 9];
@@ -82,8 +80,6 @@ function App() {
       {/* <Person name="Rob" age="25" /> */}
 
       <Counter></Counter>
-
-      {/* <Forms></Forms> */}
     </div>
   );
 }
