@@ -1,16 +1,19 @@
 import { useState } from "react";
 import Car from "./Car";
 import Person from "./Person";
+import Counter from "./Counter";
+import Forms from "./Forms";
+
 // Map Method. Like forEach but returns a new array
 const numbers = [1, 4, 9];
 const roots = numbers.map((num) => num + 1);
-console.log(roots);
+// console.log(roots);
 
 // another example of map method
 const fruitsA = ["apple", "mango", "orange"];
 
 fruitsA.map(function (fruit, index) {
-  console.log(`${index + 1}. ${fruit}`);
+  // console.log(`${index + 1}. ${fruit}`);
 });
 
 const fruits = [
@@ -37,7 +40,7 @@ const newArrayFromFruits = fruits.map(
       fruit.price * fruit.units
     ).toFixed(2)}`
 );
-console.log(newArrayFromFruits);
+// console.log(newArrayFromFruits);
 
 // Rendering Map Elements on the page
 const users = [
@@ -67,25 +70,20 @@ const myObj = {
 };
 
 const { name, email } = myObj;
-console.log(name, email);
+// console.log(name, email);
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  function updateCount() {
-    setCount(count + 1);
-  }
-
   return (
     <div>
-      {/* <Car carModel="Prius" carName="Toyota!!!"></Car>
-      {users.map((user) => (
+      {/* <Car carModel="Prius" carName="Toyota!!!"></Car> */}
+      {/* {users.map((user) => (
         <div>{user.name}</div>
-      ))}
-      <Person name="Rob" age="25" /> */}
+      ))} */}
+      {/* <Person name="Rob" age="25" /> */}
 
-      <div>Count: {count}</div>
-      <button onClick={updateCount}>Update count</button>
+      <Counter></Counter>
+
+      {/* <Forms></Forms> */}
     </div>
   );
 }
