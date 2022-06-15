@@ -7,11 +7,13 @@ export default function Forms() {
   // console.log(useState(1));
 
   // // Doesn't really work:
+  // Doesn't really work
   // const handleSubmit = (e) => {
   //   e.preventDefault();
-  //   inputList.push(val);
-  //   console.log(inputList);
-  //   setInputList(inputList);
+  //   const temp = inputList; // Doesn't actually copy the array, but temp is referencing the original array
+  //   temp.push(val);
+  //   console.log(temp);
+  //   setInputList(temp);
   // };
 
   const handleSubmit = (e) => {
