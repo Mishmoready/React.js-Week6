@@ -1,19 +1,36 @@
 import { useState } from "react";
 export default function CondRendering() {
   const [showContent, setShowContent] = useState(false);
-  const changeContent = () => setShowContent(!showContent);
+  const [content, setContent] = useState("Click the button"); // for the If Else example
+
+  // For the && (AND) operator conditional rendering example
+  // const changeContent = () => setShowContent(!showContent);
+
+  // Conditional rendering using an If Else statement
+  const changeContent = () => {
+    // If showContent is true, then make it false
+    if (showContent) {
+      setContent("I'm false right now. Click the button"); // set the content below to this text
+      setShowContent(false); // Now that we've updated the below content, set the showContent state back to false
+    } else {
+      // else if showContent is false
+      setContent("Congrats you found the hidden content!!");
+      setShowContent(true);
+    }
+  };
 
   return (
     <div>
       <div>
-        {/* Conditional Rendering */}
+        {content} {/* For If Else example */}
+        {showContent && "Congrats you found the hidden content!"}{" "}
+        {/* && (AND) operator example */}
         {showContent
           ? "Congrats you found the hidden content!"
-          : "Click the button"}
+          : "Click the button below"}{" "}
+        {/* Ternary Statement example */}
       </div>
-      {/* Using the logical && (AND) operators */}
-      <div>{showContent && "Now you see me"}</div>
-      <button onClick={changeContent}>Click here</button>
+      <button onClick={changeContent}> Click here </button>
     </div>
   );
 }
