@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function Forms() {
+export default function Form() {
   const [inputList, setInputList] = useState([]);
   const [val, setVal] = useState("");
 

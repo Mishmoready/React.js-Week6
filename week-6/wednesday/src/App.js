@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Form from "./Forms";
+import Form from "./Form";
 import logo from "./logo.svg";
 import "./App.css";
 import CondRendering from "./CondRendering";
