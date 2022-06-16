@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div style={{ border: "2px solid black", margin: "5px" }}>
       {/* We pass the handleChangeMethodInApp function as a prop into InputComponent, and we call it 'handleChange'*/}
-      <InputComponent val={val} handleChange={handleChangeMethodInApp} />
+      <InputComponent handleChange={handleChangeMethodInApp} />
       <ShowInput val={val} />
     </div>
   );
