@@ -2,6 +2,7 @@ import { useState } from "react";
 import Button from "@mui/material/Button";
 import { MenuItem, Radio, Select, TextField, Typography } from "@mui/material";
 import Checkbox from "@mui/material/Checkbox";
+import FormExercise from "./components/FormExercise";
 function App() {
   // My event handler function
   function handleClick() {
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+      {/*  
       <Button
         onClick={handleClick}
         sx={{ margin: 5 }}
@@ -37,7 +39,8 @@ function App() {
         <MenuItem value="3">Item 3</MenuItem>
       </Select>
 
-      <TextField variant="standard" type="password" />
+      <TextField variant="standard" type="password" />*/}
+      <FormExercise/>
     </div>
   );
 }
