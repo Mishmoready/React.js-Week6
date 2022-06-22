@@ -58,7 +58,7 @@ export default function LoginModal() {
   // ---------------- Red Shirt Handler Functions ----------------
   // Handling what happens when user types in email text box for RED SHIRTS
   const handleRedEmailChange = (event) => {
-    sventtRventdShirtsEmail(event.target.value);
+    setRedShirtsEmail(event.target.value);
 
     setLoggedInUser({
       password: redShirtsPassword,
