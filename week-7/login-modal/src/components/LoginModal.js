@@ -72,12 +72,12 @@ export default function LoginModal() {
   };
 
   // ---------------- Blue Shirt Handler Function ----------------
-  // CLEANER SOLUTION: Handling the email and password states all in one event handler function (for BLUE SHIRTS)
-  // We are achieving the same thing here as what we did with red shirts, but cleaner (we don't even need separate field variables)
+  // CLEANER SOLUTION: Handling the email and password events all in one event handler function (for BLUE SHIRTS)
+  // We are achieving the same thing here as what we did with red shirts, but cleaner. 
   const handleBlueInputs = (event) => {
     setLoggedInUser((prevState) => {
-      // in our state updating function, we always have access to the previous state (you can call it anything you like)
-      return { ...prevState, [event.target.name]: event.target.value }; // return what is already in the loggedInUser object, and add/replace to it
+      // in our state updating function, we always get access to the previous state (you can call it anything you like)
+      return { ...prevState, [event.target.name]: event.target.value }; // return what is already in the loggedInUser object (pull out object properties using spread operator), then add new/replace existing properties 
     });
   };
   // Why using square brackets above for e.target.name again?
