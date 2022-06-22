@@ -45,6 +45,7 @@ export default function LoginModal() {
   const [snackOpen, setSnackOpen] = useState(false);
 
   // ---------------- FOR MUI ALERT ----------------
+  // We don't need to understand this Alert code, this is just necessary to make MUI's Snackbar alert work
   const Alert = forwardRef(function Alert(props, ref) {
     return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
   });
@@ -54,27 +55,29 @@ export default function LoginModal() {
   const handleModalClose = () => setModalOpen(false);
   const handleSnackClose = () => setSnackOpen(false);
 
+  // ---------------- Red Shirt Handler Functions ----------------
   // Handling what happens when user types in email text box for RED SHIRTS
-  const handleRedEmailChange = (e) => {
-    setRedShirtsEmail(e.target.value);
+  const handleRedEmailChange = (event) => {
+    sventtRventdShirtsEmail(event.target.value);
 
     setLoggedInUser({
       password: redShirtsPassword,
-      email: e.target.value,
+      email: event.target.value,
     });
   };
   // Handling what happens when user types in password text box for RED SHIRTS
-  const handleRedPasswordChange = (e) => {
-    setRedShirtsPassword(e.target.value);
-    setLoggedInUser({ password: e.target.value, email: redShirtsEmail });
+  const handleRedPasswordChange = (event) => {
+    setRedShirtsPassword(event.target.value);
+    setLoggedInUser({ password: event.target.value, email: redShirtsEmail });
   };
 
+  // ---------------- Blue Shirt Handler Function ----------------
   // CLEANER SOLUTION: Handling the email and password states all in one event handler function (for BLUE SHIRTS)
   // We are achieving the same thing here as what we did with red shirts, but cleaner (we don't even need separate field variables)
-  const handleBlueInputs = (e) => {
+  const handleBlueInputs = (event) => {
     setLoggedInUser((prevState) => {
       // in our state updating function, we always have access to the previous state (you can call it anything you like)
-      return { ...prevState, [e.target.name]: e.target.value }; // return what is already in the loggedInUser object, and add/replace to it
+      return { ...prevState, [event.target.name]: event.target.value }; // return what is already in the loggedInUser object, and add/replace to it
     });
   };
   // Why using square brackets above for e.target.name again?
@@ -83,13 +86,16 @@ export default function LoginModal() {
   // // output will be {aKey:10}
   // console.log(myObj);
 
+  // ---------------- Login Button Handler Function ----------------
   // For when the user hits either login button
   const handleLogin = (e) => {
     if (e.target.name === "redshirts") {
+      // if the user clicks the redshirts login button
       // Do something with loggedInUser (ie send credentials to database)
       console.log(loggedInUser);
     }
     if (e.target.name === "blueshirts") {
+      // if the user clicks the blueshirts login button
       // Do something with loggedInUser (ie send credentials to database)
       console.log(loggedInUser);
     }
