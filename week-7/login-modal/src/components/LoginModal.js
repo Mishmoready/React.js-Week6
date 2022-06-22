@@ -193,7 +193,7 @@ export default function LoginModal() {
           severity="success"
           sx={{ width: "100%" }}
         >
-          Welcome, {loggedInUser.email || loggedInUser.email}!
+          Welcome, {loggedInUser.email}!
         </Alert>
       </Snackbar>
     </div>
