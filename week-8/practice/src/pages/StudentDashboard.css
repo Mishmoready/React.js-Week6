@@ -1,0 +1,18 @@
+.sdb_container {
+  display: flex;
+  height: 100%;
+}
+
+.sdb_sidebar {
+  background-color: blueviolet;
+  height: 100vh;
+}
+
+.sdb_content {
+  background-color: beige;
+  width: 100%;
+}
+
+.sdb_sidebar div {
+  color: greenyellow;
+}
