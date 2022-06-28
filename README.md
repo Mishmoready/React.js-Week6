@@ -31,10 +31,10 @@ Happy Coding 🔥🧑‍💻
 - Week 7
   - References - [Material UI/Redux](week-7/README.md)
   - Resources - [Workshop Code](week-7)
-    <!--
 - Week 8
   - References - [Node.js](week-8/README.md)
   - Resources - [Workshop Code](week-8)
+      <!--
 - Week 9
   - References - [More NodeJS](week-9/README.md)
   - Resources - [Workshop Code](week-9)
