@@ -6,10 +6,12 @@ import DigitalCompetencies from "./DigitalCompetencies";
 import KeyCompetencies from "./KeyCompetencies";
 import LearningPathways from "./LearningPathways";
 
-export default function () {
+export default function List() {
   const [displayedContent, setDisplayedContent] = useState(
     <LearningPathways />
   );
+
+  console.log(displayedContent.type.name); // Hint: you could use this value to help render an active class
   const [displayImage, setDisplayImage] = useState(true);
 
   function handleClick() {
@@ -29,6 +31,7 @@ export default function () {
         break;
       case "key-competencies":
         setDisplayedContent(<KeyCompetencies />);
+        break;
       default:
         console.log("OOPS");
         break;
@@ -65,14 +68,14 @@ export default function () {
         </Button>
         <button
           id="learning-pathways"
-          className={`list_btn`}
+          className={`list_btn `}
           onClick={handleContentClick}
         >
           Learning Pathways
         </button>
         <button
           id="digitial-technologies"
-          className="list_btn"
+          className={`list_btn `}
           onClick={handleContentClick}
         >
           Digital Technologies
@@ -80,7 +83,7 @@ export default function () {
 
         <button
           id="key-competencies"
-          className="list_btn"
+          className={`list_btn `}
           onClick={handleContentClick}
         >
           Key Competencies
