@@ -184,15 +184,16 @@ git push
 1. In VSC, Buddy creates a branch called “buddy/homepage”
 2. In VSC, Buddy finishes his homepage code, pushes his code to GitHub.
 3. At GitHub.com, Buddy opens a pull request, gathers feedback from team about his code if necessary, and then merges his code to “main” branch via the GitHub interface.
-4. Buddy deletes “buddy/homepage” branch on GitHub.
+4. At GitHub, Buddy deletes his “buddy/homepage” branch.
 5. In VSC, Buddy switches to “main” branch, and runs git pull (which will include not only his changes but any changes made by his team-mates).
 6. In VSC, Buddy then deletes his “buddy/homepage” branch locally by using git branch -d buddy/homepage
+7. In VSC, Buddy repeats from step 1 as required
 
 ### <span style="color: purple; background-color:white;">Workflow: If you need to reuse a branch:</span>
 
 1. In VSC, Buddy creates a branch called “buddy/homepage”
 2. In VSC, Buddy finishes his homepage code, pushes his code to GitHub.
-3. At GitHub.com, Buddy opens a pull request (you may have to manually open one), gathers feedback from team about his code if necessary, and then merges his code to “main” branch via the GitHub interface.
+3. At GitHub, Buddy opens a pull request (you may have to manually open one after the first merge), gathers feedback from team about his code if necessary, and then merges his code to “main” branch via the GitHub interface.
 4. In VSC, Buddy switches back to “buddy/homepage” branch because he wants to continue using the same branch.
 5. In VSC, Buddy merges the “main” branch into “buddy/homepage”.
 6. In VSC, Buddy repeats from step 2 as required
