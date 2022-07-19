@@ -41,7 +41,7 @@ Happy Coding 🔥🧑‍💻
   - References - [Databases and MySQL](week-10/README.md)
   - Resources - [Workshop Code](week-10)
 - Week 11
-  - References - [](week-11/README.md)
+  - References - [Cryptography and CI/CD](week-11/README.md)
   - Resources - [Workshop Code](week-11)
       <!--
 - Week 12
