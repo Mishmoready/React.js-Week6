@@ -7,11 +7,13 @@ const bcrypt = require("bcrypt");
 app.use(express.json());
 app.use(cors());
 
+// To test this server out on your end, please create a new table called 'users' with id, name, email, and password fields.
+// Alternatively, execute the attached SQL script.
 const connection = mysql.createConnection({
-  host: process.env.MYSQL_HOST,
-  user: process.env.MYSQL_USER,
-  password: process.env.MYSQL_PASS,
-  database: process.env.MYSQL_DATABASE,
+  host: process.env.MYSQL_HOST, // localhost
+  user: process.env.MYSQL_USER, // root
+  password: process.env.MYSQL_PASS, // your root password!
+  database: process.env.MYSQL_DATABASE, // your database schema name (mine was called bcrypt)
 });
 
 // Root endpoint
@@ -23,6 +25,7 @@ app.get("/", (req, res) => {
 app.post("/signup", (req, res) => {
   const query = `INSERT INTO users (email, password) VALUES (?, ?);`;
 
+  // Hash the user's entered in password and then insert it into the database
   bcrypt.hash(req.body.password, 10, function (err, hashedPass) {
     connection.query(query, [req.body.email, hashedPass], (err, result) => {
       if (err) {
@@ -38,6 +41,7 @@ app.post("/signup", (req, res) => {
 app.post("/login", (req, res) => {
   const query = `SELECT name, password FROM users WHERE email=?;`;
 
+  // Run a new query
   connection.query(query, [req.body.email], (err, result) => {
     if (err) return console.log(err);
     if (result.length === 0) {
@@ -45,9 +49,10 @@ app.post("/login", (req, res) => {
       return res.sendStatus(404);
     }
 
+    // Check if the user's entered in password and the bcrypt hash in the database match or not
     bcrypt.compare(req.body.password, result[0].password, function (err, validPass) {
       if (validPass) {
-        return res.status(200).send([{ name: result[0].name }]);
+        return res.status(200).send([{ name: result[0].name }]); // In this example, I'm sending back the user's name
       }
       if (!validPass) {
         return res.sendStatus(401);
@@ -56,7 +61,7 @@ app.post("/login", (req, res) => {
   });
 });
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT; // mine was 4000
 app.listen(PORT, (err) => {
   if (err) {
     console.log(err);
