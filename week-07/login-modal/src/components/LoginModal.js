@@ -73,11 +73,11 @@ export default function LoginModal() {
 
   // ---------------- Blue Shirt Handler Function ----------------
   // CLEANER SOLUTION: Handling the email and password events all in one event handler function (for BLUE SHIRTS)
-  // We are achieving the same thing here as what we did with red shirts, but cleaner. 
+  // We are achieving the same thing here as what we did with red shirts, but cleaner.
   const handleBlueInputs = (event) => {
     setLoggedInUser((prevState) => {
       // in our state updating function, we always get access to the previous state (you can call it anything you like)
-      return { ...prevState, [event.target.name]: event.target.value }; // return what is already in the loggedInUser object (pull out object properties using spread operator), then add new/replace existing properties 
+      return { ...prevState, [event.target.name]: event.target.value }; // return what is already in the loggedInUser object (pull out object properties using spread operator), then add new/replace existing properties
     });
   };
   // Why using square brackets above for e.target.name again?
@@ -108,9 +108,7 @@ export default function LoginModal() {
   };
 
   return (
-    <div
-      style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}
-    >
+    <div style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
       <Button variant="outlined" onClick={handleModalOpen}>
         Click to login
       </Button>
@@ -139,11 +137,7 @@ export default function LoginModal() {
                 onChange={handleRedPasswordChange}
                 name="password"
               />
-              <Button
-                name="redshirts"
-                onClick={handleLogin}
-                variant="contained"
-              >
+              <Button name="redshirts" onClick={handleLogin} variant="contained">
                 Login
               </Button>
             </Stack>
@@ -169,11 +163,7 @@ export default function LoginModal() {
                 onChange={handleBlueInputs}
                 name="password" // added a name property so we can access it in our handleBlueInputs function
               />
-              <Button
-                name="blueshirts"
-                onClick={handleLogin}
-                variant="contained"
-              >
+              <Button name="blueshirts" onClick={handleLogin} variant="contained">
                 Login
               </Button>
             </Stack>
@@ -183,16 +173,8 @@ export default function LoginModal() {
           </Box>
         </Modal>
       </ThemeProvider>
-      <Snackbar
-        open={snackOpen}
-        autoHideDuration={6000}
-        onClose={handleSnackClose}
-      >
-        <Alert
-          onClose={handleSnackClose}
-          severity="success"
-          sx={{ width: "100%" }}
-        >
+      <Snackbar open={snackOpen} autoHideDuration={6000} onClose={handleSnackClose}>
+        <Alert onClose={handleSnackClose} severity="success" sx={{ width: "100%" }}>
           Welcome, {loggedInUser.email}!
         </Alert>
       </Snackbar>
