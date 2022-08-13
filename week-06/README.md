@@ -1,1 +1,0 @@
-# Week 6 - More React <!-- omit in toc -->
