@@ -43,7 +43,7 @@ Happy Coding 🔥🧑‍💻
 - Week 11
   - References - [Cryptography and CI/CD](week-11/README.md)
   - Resources - [Workshop Code](week-11)
-      <!--
+      <!--   /
 - Week 12
   - References - [](week-12/README.md)
   - Resources - [Workshop Code](week-12) -->
