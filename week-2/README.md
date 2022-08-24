@@ -16,6 +16,7 @@
 - [4. Challenges](#4-challenges)
   - [4.1 Javascript Challenges](#41-javascript-challenges)
   - [4.2 Git](#42-git)
+- [5. Recommended Udemy Courses](#5-recommended-udemy-courses)
 
 ## 1. Command Line | Terminal basics
 
@@ -76,7 +77,9 @@
   <img src="http://i3.ytimg.com/vi/2nZiB1JItbY/maxresdefault.jpg" width=480>
 
 ## 4. Challenges
+
 ### 4.1 Javascript Challenges
+
 - https://edabit.com/challenges/javascript
 - https://www.jschallenger.com/
 - FreeCodeCamp - Basic JavaScript - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript
@@ -84,10 +87,18 @@
 - 30 days of JavaScript - https://javascript30.com/
 
 ### 4.2 Git
+
 - A game to help learn git branching - https://learngitbranching.js.org/
-- A simple visual git guide - http://rogerdudler.github.io/git-guide/ 
-- OHMYGIT - An open source game about learning Git -  https://ohmygit.org/
-<img src="https://ohmygit.org/assets/images/oh-my-git.png" width=240>
+- A simple visual git guide - http://rogerdudler.github.io/git-guide/
+- OHMYGIT - An open source game about learning Git - https://ohmygit.org/
+  <img src="https://ohmygit.org/assets/images/oh-my-git.png" width=240>
 
 - Git Katas - A collection of Git exercises - https://github.com/eficode-academy/git-katas
 - Advanced Git - https://profy.dev/project/github-minesweeper#start-project
+
+## 5. Recommended Udemy Courses
+
+Note: Udemy often has discounts available for their courses. So if it's not already on sale, Google for a coupon!
+
+- https://www.udemy.com/course/the-complete-javascript-course/
+  <img src="https://img-c.udemycdn.com/course/480x270/851712_fc61_6.jpg" width=480>
