@@ -100,5 +100,5 @@
 
 Note: Udemy often has discounts available for their courses. So if it's not already on sale, Google for a coupon!
 
-- https://www.udemy.com/course/the-complete-javascript-course/
+- https://www.udemy.com/course/the-complete-javascript-course/<br>
   <img src="https://img-c.udemycdn.com/course/480x270/851712_fc61_6.jpg" width=480>

@@ -74,5 +74,5 @@
 
 Note: Udemy often has discounts available for their courses. So if it's not already on sale, Google for a coupon!
 
-- https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
+- https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/<br>
   <img src="https://img-c.udemycdn.com/course/480x270/437398_46c3_10.jpg" width=480>
