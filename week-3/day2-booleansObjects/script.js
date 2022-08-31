@@ -1,3 +1,20 @@
+// FALSY VALUES
+// console.log(Boolean(false));
+// console.log(Boolean(null));
+// console.log(Boolean(undefined));
+// console.log(Boolean(0));
+// console.log(Boolean(NaN));
+// console.log(Boolean(""));
+
+console.log(!false); // true
+console.log(true && false); // false
+console.log(true || false); // true
+console.log(123 === "456"); // false
+console.log(1.23 === 123e-2); // true
+
+console.log(Boolean(0 && 10 - 3)); // false
+console.log(Boolean(-5)); // true
+
 // What is the output of the following?
 let x = 4,
   y = 2,
