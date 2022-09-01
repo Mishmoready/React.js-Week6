@@ -49,38 +49,32 @@ for (let i = 0; i < myNewString.length; i++) {
   console.log(myNewString[i]);
 }
 
-// -------------Exercise 6-------------
-for (let pizza = 1; pizza <= 10; pizza++) {
-  console.log(`Number of pizzas made: ${pizza}`);
-}
-
+// Iterating over properties of an array
 const cars = ["tesla", "jaguar", "ford"];
-
+// You can loop through an array using a for of loop
 for (const car of cars) {
   console.log(car); // tesla, jaguar, ford
 }
 
-// Iterating over properties of an array
-// -------------Exercise 7-------------
+// -------------Exercise 6-------------
 const foods = ["salad", "pie", "pickles", "scones"];
-// You can loop through an array using a for of loop
-for (i = 0; i <= foods.length - 1; i++) {
-  console.log(foods[i], i);
+for (const food of foods) {
+  console.log(food);
 }
 
 // Iterating over properties of an object
 // for ... in loop example
 const student = {
   name: "Rob",
-  age: 5,
+  age: 25,
   isAdmin: true,
 };
 for (const key in student) {
   console.log(key); // name, age, isAdmin
-  console.log(student[key]); // John, 5, true
+  console.log(student[key]); // Rob, 25, true
 }
 
-//-------------Exercise 8-------------
+// -------------Exercise 7-------------
 const user = {
   name: "John",
   age: 5,
@@ -94,7 +88,7 @@ for (const key in user) {
   }
 }
 
-// -------------BONUS Exercise 9-------------
+// -------------BONUS Exercise 8-------------
 const myFavNumbers = {
   firstNum: 2,
   secondNum: 3,
