@@ -39,7 +39,7 @@ myDiv.addEventListener("mouseover", function () {
   myDiv.style.background = "blue";
 });
 
-// A function that we can use for more than one event listener.
+// This function will only ever affect the myDiv element - not very resueable.
 // function changeToPink() {
 //   myDiv.style.background = "pink";
 // }
