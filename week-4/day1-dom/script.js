@@ -44,7 +44,7 @@ myDiv.addEventListener("mouseover", function () {
 //   myDiv.style.background = "pink";
 // }
 
-// A function that we can use for more than one event listener that is now DYNAMIC using the event property
+// A function that we can use for more than one event listener that is now DYNAMIC using the event.target property
 function changeToPink(e) {
   console.log(e);
   e.target.style.background = "pink";
@@ -66,8 +66,9 @@ function logValue(e) {
 // Exercise 3
 const userInput1 = document.getElementById("user-input1");
 const userInput2 = document.getElementById("user-input2");
-const sumBtn = document.getElementById("sum-btn");
 const sumResult = document.getElementById("sum-result");
+const sumBtn = document.getElementById("sum-btn");
+
 sumBtn.addEventListener("click", function () {
   sumResult.textContent = `Result: ${userInput1.value} + ${userInput2.value} = ${
     Number(userInput1.value) + Number(userInput2.value)
