@@ -96,9 +96,9 @@ console.log(num1, num2); // check with the typeof operator
 // good morning to you => Good Morning To You
 // VERSION 1
 const convertWordCaseV1 = function (sentence) {
-  const capitalise = function (str) {
-    return str[0].toUpperCase() + str.slice(1);
-  };
+  const capitalise = function (word) {
+    return word[0].toUpperCase() + word.slice(1);
+  }; // this nested function turns 'good' => 'Good'
   const lowercaseString = sentence.toLowerCase(); // String Method: make whole string lowercase
   const splitString = lowercaseString.split(" "); // String Method: split string on each " "
   const capitalisedString = splitString.map((word) => `${capitalise(word)}`); // Array Method: call the capitalise function for each word in our array
@@ -124,8 +124,8 @@ const convertWordCaseV2 = function (sentence) {
     .join(" ");
   return finalString;
 };
-
 console.log(convertWordCaseV2("good MORNING to yoU"));
+
 // VERSION 3
 const convertWordCaseV3 = function (sentence) {
   return sentence
