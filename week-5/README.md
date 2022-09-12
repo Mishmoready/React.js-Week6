@@ -1,129 +1,105 @@
-# Week 4 - Array function, JQuery, OOP, AJAX and JSON <!-- omit in toc -->
+# Week 5 - React <!-- omit in toc -->
 
-- [1. Array Functions](#1-array-functions)
-  - [1.1. JavaScript Higher Order Functions & Arrays](#11-javascript-higher-order-functions--arrays)
-  - [1.2. 8 Must Know JavaScript Array Methods](#12-8-must-know-javascript-array-methods)
-  - [1.3. JavaScript Array Functions (From Scratch)](#13-javascript-array-functions-from-scratch)
-  - [1.4. Common Array Methods - Beau teaches JavaScript](#14-common-array-methods---beau-teaches-javascript)
-- [2. Jquery](#2-jquery)
-  - [2.1. JQuery Crash Course series](#21-jquery-crash-course-series)
-  - [2.2. The Legend of jQuery in 100 Seconds](#22-the-legend-of-jquery-in-100-seconds)
-  - [2.3. jQuery vs vanilla JavaScript - Beau teaches JavaScript (jQuery and why it's not as useful anymore)](#23-jquery-vs-vanilla-javascript---beau-teaches-javascript-jquery-and-why-its-not-as-useful-anymore)
-- [3. Object Oriented Programming (OOP)](#3-object-oriented-programming-oop)
-  - [3.1. Object-oriented Programming in 7 minutes | Mosh](#31-object-oriented-programming-in-7-minutes--mosh)
-  - [3.2. Object-oriented Programming in JavaScript: Made Super Simple | Mosh](#32-object-oriented-programming-in-javascript-made-super-simple--mosh)
-  - [3.3. JavaScript OOP Crash Course (ES5 & ES6)](#33-javascript-oop-crash-course-es5--es6)
-  - [3.4. What are Classes, Objects, and Constructors?](#34-what-are-classes-objects-and-constructors)
-  - [3.5. What is THIS in JavaScript? in 100 seconds](#35-what-is-this-in-javascript-in-100-seconds)
-  - [3.6. An Encounter with JavaScript Objects](#36-an-encounter-with-javascript-objects)
-- [4. AJAX and JSON](#4-ajax-and-json)
-  - [4.1. Learn JSON in 10 Minutes](#41-learn-json-in-10-minutes)
-  - [4.2. JSON Crash Course](#42-json-crash-course)
-  - [4.3. AJAX - Beau teaches JavaScript](#43-ajax---beau-teaches-javascript)
-  - [4.4. Fetch API Introduction](#44-fetch-api-introduction)
-  - [4.5. Learn Fetch API In 6 Minutes](#45-learn-fetch-api-in-6-minutes)
+- [1. General React Tutorials](#1-general-react-tutorials)
 
-## 1. Array Functions
+  - [1.0. What is NPM, and why do we need it? | Tutorial for beginners](#1-general-react-tutorials)
+  - [1.1. React JS Course for Beginners - 2021 Tutorial](#11-react-js-course-for-beginners---2021-tutorial)
+  - [1.2. React JS Crash Course 2021](#12-react-js-crash-course-2021)
+  - [1.3. React JS Course for Beginners - 2021 Tutorial](#13-react-js-course-for-beginners---2021-tutorial)
+  - [1.4. React State and Props | Learn React For Beginners Part 4](#14-react-state-and-props--learn-react-for-beginners-part-4)
+  - [1.5. Full React Tutorial #11 - Props](#15-full-react-tutorial-11---props)
+  - [1.6. Props from Child to Parent Component (Hack)](#16-props-from-child-to-parent-component-hack)
+  - [1.7. React State Vs Props](#17-react-state-vs-props)
+- [2. React Hooks](#2-react-hooks)
+  - [2.1. 10 React Hooks Explained // Plus Build your own from Scratch](#21-10-react-hooks-explained--plus-build-your-own-from-scratch)
+  - [2.2. Learn useState In 15 Minutes - React Hooks Explained](#22-learn-usestate-in-15-minutes---react-hooks-explained)
+  - [2.3. Introducing React Hooks](#23-introducing-react-hooks)
+  - [2.4. React Hooks Tutorial](#24-react-hooks-tutorial)
+- [3. React router](#3-react-router)
+  - [3.1. React Router Tutorial | React For Beginners](#31-react-router-tutorial--react-for-beginners)
+  - [3.2. React Router Crash Course](#32-react-router-crash-course)
+  - [3.3. React Router Tutorial - Setup in 5 Minutes](#33-react-router-tutorial---setup-in-5-minutes)
+  - [3.4. React Router Tutorial](#34-react-router-tutorial)
+- [4. Axios](#4-axios)
+  - [4.1. How To Make An API Request in ReactJS With Axios and Fetch - Tutorial [2020]](#41-how-to-make-an-api-request-in-reactjs-with-axios-and-fetch---tutorial-2020)
+  - [4.2. Axios with React like a Pro | Create A Reminder App](#42-axios-with-react-like-a-pro--create-a-reminder-app)
 
-### 1.1. JavaScript Higher Order Functions & Arrays
+## 1. General React Tutorials
+### 1.0. What is NPM, and why do we need it? | Tutorial for beginners
+- https://youtu.be/P3aKRdUyr0s 0:14:26
+### 1.1. React JS Course for Beginners - 2021 Tutorial
+- https://www.youtube.com/watch?v=nTeuhbP7wdE&t=17s&ab_channel=freeCodeCamp.org 7:10:27
 
-- https://www.youtube.com/watch?v=rRgD1yVwIvE&ab_channel=TraversyMedia 34:55
+  <img src="https://img.youtube.com/vi/nTeuhbP7wdE/maxresdefault.jpg" width=480>
 
-  <img src="https://img.youtube.com/vi/rRgD1yVwIvE/maxresdefault.jpg" width=480>
+### 1.2. React JS Crash Course 2021
+- https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=3336s&ab_channel=TraversyMedia 1:48:47
 
-### 1.2. 8 Must Know JavaScript Array Methods
+  <img src="https://img.youtube.com/vi/w7ejDZ8SWv8/maxresdefault.jpg" width=480>
 
-- https://www.youtube.com/watch?v=R8rmfD9Y5-c&ab_channel=WebDevSimplified 10:04
+### 1.3. React JS Course for Beginners - 2021 Tutorial
+- https://www.youtube.com/watch?v=nTeuhbP7wdE&t=17s&ab_channel=freeCodeCamp.org 7:10:27
 
-  <img src="https://img.youtube.com/vi/R8rmfD9Y5-c/maxresdefault.jpg" width=480>
+  <img src="https://img.youtube.com/vi/nTeuhbP7wdE/maxresdefault.jpg" width=480>
 
-### 1.3. JavaScript Array Functions (From Scratch)
+### 1.4. React State and Props | Learn React For Beginners Part 4
+- https://www.youtube.com/watch?v=dMH1_YtUTSQ&ab_channel=DevEd 54:43
+  <img src="https://img.youtube.com/vi/dMH1_YtUTSQ/maxresdefault.jpg" width=480>
 
-- https://www.youtube.com/watch?v=ALYH5XOvMwI&ab_channel=JamesQQuick 18:43
+### 1.5. Full React Tutorial #11 - Props
+- https://www.youtube.com/watch?v=PHaECbrKgs0&ab_channel=TheNetNinja 8:55
+  <img src="https://img.youtube.com/vi/PHaECbrKgs0/maxresdefault.jpg" width=480>
 
-  <img src="https://img.youtube.com/vi/ALYH5XOvMwI/maxresdefault.jpg" width=480>
+### 1.6. Props from Child to Parent Component (Hack)
+- https://www.youtube.com/watch?v=UrpNtB61qyo&ab_channel=CodewithAniaKub%C3%B3w 8:08
+  <img src="https://img.youtube.com/vi/UrpNtB61qyo/maxresdefault.jpg" width=480>
 
-### 1.4. Common Array Methods - Beau teaches JavaScript
+### 1.7. React State Vs Props
+- https://www.youtube.com/watch?v=IYvD9oBCuJI&ab_channel=WebDevSimplified 5:45
+  <img src="https://img.youtube.com/vi/IYvD9oBCuJI/maxresdefault.jpg" width=480>
 
-- https://www.youtube.com/watch?v=MeZVVxLn26E&ab_channel=freeCodeCamp.org 6:45
+## 2. React Hooks
 
-  <img src="https://img.youtube.com/vi/MeZVVxLn26E/maxresdefault.jpg" width=480>
+### 2.1. 10 React Hooks Explained // Plus Build your own from Scratch
+- https://www.youtube.com/watch?v=TNhaISOUy6Q&t=561s&ab_channel=Fireship 13:14
+  <img src="https://img.youtube.com/vi/TNhaISOUy6Q/maxresdefault.jpg" width=480>
 
-## 2. Jquery
+### 2.2. Learn useState In 15 Minutes - React Hooks Explained
+- https://www.youtube.com/watch?v=O6P86uwfdR0&t=45s&ab_channel=WebDevSimplified 15:44
+  <img src="https://img.youtube.com/vi/O6P86uwfdR0/maxresdefault.jpg" width=480>
 
-### 2.1. JQuery Crash Course series
+### 2.3. Introducing React Hooks
+- https://www.youtube.com/watch?v=mxK8b99iJTg&ab_channel=TraversyMedia 20:49
+  <img src="https://img.youtube.com/vi/mxK8b99iJTg/maxresdefault.jpg" width=480>
 
-- https://www.youtube.com/watch?v=3nrLc_JOF7k&list=PLillGF-RfqbYJVXBgZ_nA7FTAAEpp_IAc&ab_channel=TraversyMedia 15-20 min/vid 
+### 2.4. React Hooks Tutorial
+- https://img.youtube.com/vi/f687hBjwFcM/maxresdefault.jpg 1:45:06
+  <img src="https://img.youtube.com/vi/f687hBjwFcM/maxresdefault.jpg" width=480>
 
-  <img src="https://img.youtube.com/vi/3nrLc_JOF7k/maxresdefault.jpg" width=480>
+## 3. React router
 
-### 2.2. The Legend of jQuery in 100 Seconds
+### 3.1. React Router Tutorial | React For Beginners
+- https://www.youtube.com/watch?v=Law7wfdg_ls&ab_channel=DevEd 33:09
+  <img src="https://img.youtube.com/vi/f687hBjwFcM/maxresdefault.jpg" width=480>
 
-- https://www.youtube.com/watch?v=UU-GebNqdbg&ab_channel=Fireship 2:10
+### 3.2. React Router Crash Course
+- https://www.youtube.com/watch?v=Jppuj6M1sJ4&ab_channel=freeCodeCamp.org 38:55
+  <img src="https://img.youtube.com/vi/Jppuj6M1sJ4/maxresdefault.jpg" width=480>
 
-  <img src="https://img.youtube.com/vi/UU-GebNqdbg/maxresdefault.jpg" width=480>
+### 3.3. React Router Tutorial - Setup in 5 Minutes
+- https://www.youtube.com/watch?v=yQf1KbGiwiI&ab_channel=JamesQQuick 6:29
+  <img src="https://img.youtube.com/vi/yQf1KbGiwiI/maxresdefault.jpg" width=480>
 
-### 2.3. jQuery vs vanilla JavaScript - Beau teaches JavaScript (jQuery and why it's not as useful anymore)
+### 3.4. React Router Tutorial
+- https://www.youtube.com/watch?v=110dW3l5GQY&ab_channel=BenAwad 17:11
+  <img src="https://img.youtube.com/vi/110dW3l5GQY/maxresdefault.jpg" width=480>
 
-- https://www.youtube.com/watch?v=X65s7WQLWJY&ab_channel=freeCodeCamp.org 5:08
+## 4. Axios
 
-  <img src="https://img.youtube.com/vi/X65s7WQLWJY/maxresdefault.jpg" width=480>
+### 4.1. How To Make An API Request in ReactJS With Axios and Fetch - Tutorial [2020]
+- https://www.youtube.com/watch?v=rpg1jOvGCtQ&ab_channel=PedroTech 9:49
+  <img src="https://img.youtube.com/vi/rpg1jOvGCtQ/maxresdefault.jpg" width=480>
 
-## 3. Object Oriented Programming (OOP)
-
-### 3.1. Object-oriented Programming in 7 minutes | Mosh
-
-- https://www.youtube.com/watch?v=pTB0EiLXUC8&ab_channel=ProgrammingwithMosh 7:33
-  <img src="https://img.youtube.com/vi/pTB0EiLXUC8/maxresdefault.jpg" width=480>
-
-### 3.2. Object-oriented Programming in JavaScript: Made Super Simple | Mosh
-
-- https://www.youtube.com/watch?v=PFmuCDHHpwk&ab_channel=ProgrammingwithMosh 1:02:48
-  <img src="https://img.youtube.com/vi/PFmuCDHHpwk/maxresdefault.jpg" width=480>
-
-### 3.3. JavaScript OOP Crash Course (ES5 & ES6)
-
-- https://www.youtube.com/watch?v=vDJpGenyHaA&ab_channel=TraversyMedia 40:20
-  <img src="https://img.youtube.com/vi/vDJpGenyHaA/maxresdefault.jpg" width=480>
-
-### 3.4. What are Classes, Objects, and Constructors?
-
-- https://www.youtube.com/watch?v=5AWRivBk0Gw&ab_channel=WebDevSimplified 4:21
-  <img src="https://img.youtube.com/vi/5AWRivBk0Gw/maxresdefault.jpg" width=480>
-
-### 3.5. What is THIS in JavaScript? in 100 seconds
-
-- https://www.youtube.com/watch?v=YOlr79NaAtQ&ab_channel=Fireship 6:37
-  <img src="https://img.youtube.com/vi/YOlr79NaAtQ/maxresdefault.jpg" width=480>
-
-### 3.6. An Encounter with JavaScript Objects
-
-- https://www.youtube.com/watch?v=napDjGFjHR0&ab_channel=Fireship 10:37
-  <img src="https://img.youtube.com/vi/napDjGFjHR0/maxresdefault.jpg" width=480>
-
-## 4. AJAX and JSON
-
-### 4.1. Learn JSON in 10 Minutes
-
-- https://www.youtube.com/watch?v=iiADhChRriM&ab_channel=WebDevSimplified 11:59
-  <img src="https://img.youtube.com/vi/iiADhChRriM/maxresdefault.jpg" width=480>
-
-### 4.2. JSON Crash Course
-
-- https://www.youtube.com/watch?v=wI1CWzNtE-M&ab_channel=TraversyMedia 24:49
-  <img src="https://img.youtube.com/vi/wI1CWzNtE-M/maxresdefault.jpg" width=480>
-
-### 4.3. AJAX - Beau teaches JavaScript
-
-- https://www.youtube.com/watch?v=tHRNuBf_8xg&ab_channel=freeCodeCamp.org 6:13
-  <img src="https://img.youtube.com/vi/tHRNuBf_8xg/maxresdefault.jpg" width=480>
-
-### 4.4. Fetch API Introduction
-
-- https://www.youtube.com/watch?v=Oive66jrwBs&ab_channel=TraversyMedia 30:53
-  <img src="https://img.youtube.com/vi/Oive66jrwBs/maxresdefault.jpg" width=480>
-
-### 4.5. Learn Fetch API In 6 Minutes
-
-- https://www.youtube.com/watch?v=cuEtnrL9-H0&ab_channel=WebDevSimplified 6:34
-  <img src="https://img.youtube.com/vi/cuEtnrL9-H0/maxresdefault.jpg" width=480>
+### 4.2. Axios with React like a Pro | Create A Reminder App
+- https://www.youtube.com/watch?v=AirWT_XpEpM&ab_channel=CoderOne 26:01
+  <img src="https://img.youtube.com/vi/AirWT_XpEpM/maxresdefault.jpg" width=480>
