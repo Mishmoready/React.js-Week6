@@ -28,9 +28,7 @@ export default function CondRendering() {
         {/* NOTE: If the condition on the left is true, display whatever value is on the right*/}
         {/* {showContent && "Congrats you found the hidden content!"} */}
         {/* ------ TERNARY STATEMENT (IF ELSE) EXAMPLE ------*/}
-        {showContent
-          ? "Congrats you found the hidden content!"
-          : "I'm false right now. Click the button"}
+        {showContent ? "Congrats you found the hidden content!" : "I'm false right now. Click the button"}
       </div>
       <button onClick={changeContent}> Click here </button>
     </div>

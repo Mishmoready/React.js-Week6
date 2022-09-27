@@ -6,10 +6,10 @@ import Exercise3 from "./components/Exercise3";
 function App() {
   return (
     <div className="App">
-      <Form />
+      {/* <Form /> */}
       {/* <CondRendering></CondRendering> */}
       {/* <Exercise2></Exercise2> */}
-      {/* <Exercise3></Exercise3> */}
+      <Exercise3></Exercise3>
     </div>
   );
 }
