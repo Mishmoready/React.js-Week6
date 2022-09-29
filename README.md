@@ -27,7 +27,7 @@ Happy Coding 🔥🧑‍💻
   - References - [More React](week-6/README.md)
   - Resources - [Workshop Code](week-6)
 - Week 7
-  - References - [Material UI/Redux](week-7/README.md)
+  - References - [More React and Material UI](week-7/README.md)
   - Resources - [Workshop Code](week-7)
   <!--
 - Week 8
