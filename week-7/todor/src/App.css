@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #808080;
+  border-radius: 5px;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px 15px;
+}
