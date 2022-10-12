@@ -16,12 +16,6 @@
   - [3.4. What are Classes, Objects, and Constructors?](#34-what-are-classes-objects-and-constructors)
   - [3.5. What is THIS in JavaScript? in 100 seconds](#35-what-is-this-in-javascript-in-100-seconds)
   - [3.6. An Encounter with JavaScript Objects](#36-an-encounter-with-javascript-objects)
-- [4. AJAX and JSON](#4-ajax-and-json)
-  - [4.1. Learn JSON in 10 Minutes](#41-learn-json-in-10-minutes)
-  - [4.2. JSON Crash Course](#42-json-crash-course)
-  - [4.3. AJAX - Beau teaches JavaScript](#43-ajax---beau-teaches-javascript)
-  - [4.4. Fetch API Introduction](#44-fetch-api-introduction)
-  - [4.5. Learn Fetch API In 6 Minutes](#45-learn-fetch-api-in-6-minutes)
 
 ## 1. Array Functions
 
@@ -53,7 +47,7 @@
 
 ### 2.1. JQuery Crash Course series
 
-- https://www.youtube.com/watch?v=3nrLc_JOF7k&list=PLillGF-RfqbYJVXBgZ_nA7FTAAEpp_IAc&ab_channel=TraversyMedia 15-20 min/vid 
+- https://www.youtube.com/watch?v=3nrLc_JOF7k&list=PLillGF-RfqbYJVXBgZ_nA7FTAAEpp_IAc&ab_channel=TraversyMedia 15-20 min/vid
 
   <img src="https://img.youtube.com/vi/3nrLc_JOF7k/maxresdefault.jpg" width=480>
 
@@ -100,30 +94,3 @@
 
 - https://www.youtube.com/watch?v=napDjGFjHR0&ab_channel=Fireship 10:37
   <img src="https://img.youtube.com/vi/napDjGFjHR0/maxresdefault.jpg" width=480>
-
-## 4. AJAX and JSON
-
-### 4.1. Learn JSON in 10 Minutes
-
-- https://www.youtube.com/watch?v=iiADhChRriM&ab_channel=WebDevSimplified 11:59
-  <img src="https://img.youtube.com/vi/iiADhChRriM/maxresdefault.jpg" width=480>
-
-### 4.2. JSON Crash Course
-
-- https://www.youtube.com/watch?v=wI1CWzNtE-M&ab_channel=TraversyMedia 24:49
-  <img src="https://img.youtube.com/vi/wI1CWzNtE-M/maxresdefault.jpg" width=480>
-
-### 4.3. AJAX - Beau teaches JavaScript
-
-- https://www.youtube.com/watch?v=tHRNuBf_8xg&ab_channel=freeCodeCamp.org 6:13
-  <img src="https://img.youtube.com/vi/tHRNuBf_8xg/maxresdefault.jpg" width=480>
-
-### 4.4. Fetch API Introduction
-
-- https://www.youtube.com/watch?v=Oive66jrwBs&ab_channel=TraversyMedia 30:53
-  <img src="https://img.youtube.com/vi/Oive66jrwBs/maxresdefault.jpg" width=480>
-
-### 4.5. Learn Fetch API In 6 Minutes
-
-- https://www.youtube.com/watch?v=cuEtnrL9-H0&ab_channel=WebDevSimplified 6:34
-  <img src="https://img.youtube.com/vi/cuEtnrL9-H0/maxresdefault.jpg" width=480>

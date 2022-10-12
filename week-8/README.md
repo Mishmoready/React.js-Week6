@@ -15,7 +15,12 @@
 - [4. ExpressJS](#4-expressjs)
   - [4.1. Learn Express JS In 35 Minutes](#41-learn-express-js-in-35-minutes)
   - [4.2. Express JS Crash Course](#42-express-js-crash-course)
-
+- [5. AJAX and JSON](#4-ajax-and-json)
+  - [5.1. Learn JSON in 10 Minutes](#51-learn-json-in-10-minutes)
+  - [5.2. JSON Crash Course](#52-json-crash-course)
+  - [5.3. AJAX - Beau teaches JavaScript](#53-ajax---beau-teaches-javascript)
+  - [5.4. Fetch API Introduction](#54-fetch-api-introduction)
+  - [5.5. Learn Fetch API In 6 Minutes](#55-learn-fetch-api-in-6-minutes)
 
 ## 1. Installing Node JS
 
@@ -29,7 +34,7 @@
 
 - https://www.youtube.com/watch?v=__7eOCxJyow&ab_channel=ProgrammingKnowledge2 11:15
 
-	<img src="https://img.youtube.com/vi/__7eOCxJyow/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/__7eOCxJyow/maxresdefault.jpg" width=480>
 
 ## 2. NodeJS tutorials
 
@@ -90,3 +95,30 @@
 - https://www.youtube.com/watch?v=L72fhGm1tfE&ab_channel=TraversyMedia 1:14:00
 
   <img src="https://img.youtube.com/vi/L72fhGm1tfE/maxresdefault.jpg" width=480>
+
+## 5. AJAX and JSON
+
+### 5.1. Learn JSON in 10 Minutes
+
+- https://www.youtube.com/watch?v=iiADhChRriM&ab_channel=WebDevSimplified 11:59
+  <img src="https://img.youtube.com/vi/iiADhChRriM/maxresdefault.jpg" width=480>
+
+### 5.2. JSON Crash Course
+
+- https://www.youtube.com/watch?v=wI1CWzNtE-M&ab_channel=TraversyMedia 24:49
+  <img src="https://img.youtube.com/vi/wI1CWzNtE-M/maxresdefault.jpg" width=480>
+
+### 5.3. AJAX - Beau teaches JavaScript
+
+- https://www.youtube.com/watch?v=tHRNuBf_8xg&ab_channel=freeCodeCamp.org 6:13
+  <img src="https://img.youtube.com/vi/tHRNuBf_8xg/maxresdefault.jpg" width=480>
+
+### 5.4. Fetch API Introduction
+
+- https://www.youtube.com/watch?v=Oive66jrwBs&ab_channel=TraversyMedia 30:53
+  <img src="https://img.youtube.com/vi/Oive66jrwBs/maxresdefault.jpg" width=480>
+
+### 5.5. Learn Fetch API In 6 Minutes
+
+- https://www.youtube.com/watch?v=cuEtnrL9-H0&ab_channel=WebDevSimplified 6:34
+  <img src="https://img.youtube.com/vi/cuEtnrL9-H0/maxresdefault.jpg" width=480>

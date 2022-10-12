@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login App!</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Log in</h1>
+    <!-- Submitting form data using traditional HTML form -->
+    <!-- <form action="http://localhost:4000/login" method="post">
+      <div>Email</div>
+      <input class="input-box" type="email" name="email" />
+      <div>Password</div>
+      <input class="input-box" type="password" name="password" />
+      <input class="submit-btn" type="submit" />
+    </form> -->
+
+    <!-- Submitting form data using fetch() API -->
+    <form id="loginForm">
+      <div>Email</div>
+      <input id="email" class="input-box" type="email" name="email" />
+      <div>Password</div>
+      <input id="password" class="input-box" type="password" name="password" />
+      <input class="submit-btn" type="submit" />
+    </form>
+
+    <div id="loginResult"></div>
+  </body>
+</html>
