@@ -15,7 +15,7 @@
 - [4. ExpressJS](#4-expressjs)
   - [4.1. Learn Express JS In 35 Minutes](#41-learn-express-js-in-35-minutes)
   - [4.2. Express JS Crash Course](#42-express-js-crash-course)
-- [5. AJAX and JSON](#4-ajax-and-json)
+- [5. AJAX and JSON](#5-ajax-and-json)
   - [5.1. Learn JSON in 10 Minutes](#51-learn-json-in-10-minutes)
   - [5.2. JSON Crash Course](#52-json-crash-course)
   - [5.3. AJAX - Beau teaches JavaScript](#53-ajax---beau-teaches-javascript)
