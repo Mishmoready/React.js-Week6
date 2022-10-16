@@ -9,32 +9,32 @@ Happy Coding 🔥🧑‍💻
 ### Contents
 
 - Week 1
-  - References - [HTML and CSS](week-1/README.md)
-  - Resources - [Workshop Code](week-1)
+  - References - [HTML and CSS](week-01/README.md)
+  - Resources - [Workshop Code](week-01)
 - Week 2
-  - References - [Git and JavaScript](week-2/README.md)
-  - Resources - [Workshop Code](week-2)
+  - References - [Git and JavaScript](week-02/README.md)
+  - Resources - [Workshop Code](week-02)
 - Week 3
-  - References - [More on JavaScript](week-3/README.md)
-  - Resources - [Workshop Code](week-3)
+  - References - [More on JavaScript](week-03/README.md)
+  - Resources - [Workshop Code](week-03)
 - Week 4
-  - References - [More on JavaScript part 2](week-4/README.md)
-  - Resources - [Workshop Code](week-4)
+  - References - [More on JavaScript part 2](week-04/README.md)
+  - Resources - [Workshop Code](week-04)
 - Week 5
-  - References - [React](week-5/README.md)
-  - Resources - [Workshop Code](week-5)
+  - References - [React](week-05/README.md)
+  - Resources - [Workshop Code](week-05)
 - Week 6
-  - References - [More React](week-6/README.md)
-  - Resources - [Workshop Code](week-6)
+  - References - [More React](week-06/README.md)
+  - Resources - [Workshop Code](week-06)
 - Week 7
-  - References - [More React and Material UI](week-7/README.md)
-  - Resources - [Workshop Code](week-7)
+  - References - [More React and Material UI](week-07/README.md)
+  - Resources - [Workshop Code](week-07)
 - Week 8
-  - References - [Node.js](week-8/README.md)
-  - Resources - [Workshop Code](week-8)
+  - References - [Node.js](week-08/README.md)
+  - Resources - [Workshop Code](week-08)
 - Week 9
-  - References - [More NodeJS](week-9/README.md)
-  - Resources - [Workshop Code](week-9)
+  - References - [More NodeJS](week-09/README.md)
+  - Resources - [Workshop Code](week-09)
 - Week 10
   - References - [Databases and MySQL](week-10/README.md)
   - Resources - [Workshop Code](week-10)
