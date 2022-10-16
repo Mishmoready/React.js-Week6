@@ -17,9 +17,9 @@
 - [5. Express routing](#5-express-routing)
   - [5.1. Express JS - Router and Routes](#51-express-js---router-and-routes)
   - [5.2. How to use Express Router](#52-how-to-use-express-router)
-
-
-
+- [6. Axios](#6-axios)
+  - [6.1. How To Make An API Request in ReactJS With Axios and Fetch - Tutorial [2020]](#61-how-to-make-an-api-request-in-reactjs-with-axios-and-fetch---tutorial-2020)
+  - [6.2. Axios with React like a Pro | Create A Reminder App](#62-axios-with-react-like-a-pro--create-a-reminder-app)
 
 ## 1. Promises and Async/await
 
@@ -33,19 +33,19 @@
 
 - https://www.youtube.com/watch?v=RvYYCGs45L4&ab_channel=Fireship 1:38
 
-	<img src="https://img.youtube.com/vi/RvYYCGs45L4/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/RvYYCGs45L4/maxresdefault.jpg" width=480>
 
 ### 1.3. Async JS Crash Course - Callbacks, Promises, Async Await
 
 - https://www.youtube.com/watch?v=PoRJizFvM7s&ab_channel=TraversyMedia 24:30
 
-	<img src="https://img.youtube.com/vi/PoRJizFvM7s/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/PoRJizFvM7s/maxresdefault.jpg" width=480>
 
 ### 1.4. JavaScript Promises In 10 Minutes
 
 - https://www.youtube.com/watch?v=DHvZLI7Db8E&t=545s&ab_channel=WebDevSimplified 11:30
 
-	<img src="https://img.youtube.com/vi/DHvZLI7Db8E/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/DHvZLI7Db8E/maxresdefault.jpg" width=480>
 
 ## 2. ENV Variables
 
@@ -53,13 +53,13 @@
 
 - https://www.youtube.com/watch?v=zwcvXd3kGbw&ab_channel=CodeWithVlad 5:58
 
-	<img src="https://img.youtube.com/vi/zwcvXd3kGbw/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/zwcvXd3kGbw/maxresdefault.jpg" width=480>
 
 ### 2.2. Environment Variables in Node.js
 
 - https://www.youtube.com/watch?v=HRBNeERE5PU&ab_channel=BenAwad 7:35
 
-	<img src="https://img.youtube.com/vi/HRBNeERE5PU/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/HRBNeERE5PU/maxresdefault.jpg" width=480>
 
 ## 3. File System module
 
@@ -67,13 +67,13 @@
 
 - https://www.youtube.com/watch?v=U57kU311-nE&ab_channel=TheNetNinja 8:54
 
-	<img src="https://img.youtube.com/vi/U57kU311-nE/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/U57kU311-nE/maxresdefault.jpg" width=480>
 
 ### 3.2. fs (File System) Module in Node JS
 
 - https://www.youtube.com/watch?v=ZySsdm576wE&t=359s&ab_channel=Telusko 9:37
 
-	<img src="https://img.youtube.com/vi/ZySsdm576wE/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/ZySsdm576wE/maxresdefault.jpg" width=480>
 
 ## 4. nodemailer
 
@@ -81,13 +81,13 @@
 
 - https://www.youtube.com/watch?v=nF9g1825mwk&t=1321s&ab_channel=TraversyMedia 29:53
 
-	<img src="https://img.youtube.com/vi/nF9g1825mwk/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/nF9g1825mwk/maxresdefault.jpg" width=480>
 
 ### 4.2. How to Send an Email in Node.js
 
 - https://www.youtube.com/watch?v=YU3qstG74nw&ab_channel=BenAwad 8:08
 
-	<img src="https://img.youtube.com/vi/YU3qstG74nw/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/YU3qstG74nw/maxresdefault.jpg" width=480>
 
 ## 5. Express routing
 
@@ -95,10 +95,22 @@
 
 - https://www.youtube.com/watch?v=iM_S4RczozU&ab_channel=SteveGriffith-Prof3ssorSt3v3 12:53
 
-	<img src="https://img.youtube.com/vi/iM_S4RczozU/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/iM_S4RczozU/maxresdefault.jpg" width=480>
 
 ### 5.2. How to use Express Router
 
 - https://www.youtube.com/watch?v=paNikhYqdz0&ab_channel=HungryTurtleCode 9:15
 
-	<img src="https://img.youtube.com/vi/paNikhYqdz0/maxresdefault.jpg" width=480>
+<img src="https://img.youtube.com/vi/paNikhYqdz0/maxresdefault.jpg" width=480>
+
+## 6. Axios
+
+### 6.1. How To Make An API Request in ReactJS With Axios and Fetch - Tutorial [2020]
+
+- https://www.youtube.com/watch?v=rpg1jOvGCtQ&ab_channel=PedroTech 9:49
+  <img src="https://img.youtube.com/vi/rpg1jOvGCtQ/maxresdefault.jpg" width=480>
+
+### 6.2. Axios with React like a Pro | Create A Reminder App
+
+- https://www.youtube.com/watch?v=AirWT_XpEpM&ab_channel=CoderOne 26:01
+  <img src="https://img.youtube.com/vi/AirWT_XpEpM/maxresdefault.jpg" width=480>
