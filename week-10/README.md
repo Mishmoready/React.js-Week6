@@ -8,6 +8,7 @@
 - [2. SQL](#2-sql)
   - [2.1. What is SQL? [in 4 minutes for beginners]](#21-what-is-sql-in-4-minutes-for-beginners)
   - [2.2. SQL Explained in 100 Seconds](#22-sql-explained-in-100-seconds)
+  - [2.3. Entity Relationship Diagram (ERD) Tutorial - Part 1](#23-entity-relationship-diagram-erd-tutorial---part-1)
 - [3. MySQL](#3-mysql)
   - [3.1. MySQL - The Basics // Learn SQL in 23 Easy Steps](#31-mysql---the-basics--learn-sql-in-23-easy-steps)
   - [3.2. MySQL Tutorial for Beginners [Full Course]](#32-mysql-tutorial-for-beginners-full-course)
@@ -57,6 +58,12 @@
 - https://www.youtube.com/watch?v=zsjvFFKOm3c&ab_channel=Fireship 2:22
 
   <img src="https://img.youtube.com/vi/zsjvFFKOm3c/maxresdefault.jpg" width=480>
+
+### 2.3. Entity Relationship Diagram (ERD) Tutorial - Part 1
+
+- https://www.youtube.com/watch?v=QpdhBUYk7Kk 6:57
+
+  <img src="https://img.youtube.com/vi/QpdhBUYk7Kk/maxresdefault.jpg" width=480>
 
 ## 3. MySQL
 
