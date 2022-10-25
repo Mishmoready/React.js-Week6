@@ -38,10 +38,10 @@ Happy Coding 🔥🧑‍💻
 - Week 10
   - References - [Databases and MySQL](week-10/README.md)
   - Resources - [Workshop Code](week-10)
-  <!--
 - Week 11
   - References - [Cryptography and CI/CD](week-11/README.md)
   - Resources - [Workshop Code](week-11)
+  <!--
 - Week 12
   - References - [](week-12/README.md)
   - Resources - [Workshop Code](week-12) -->

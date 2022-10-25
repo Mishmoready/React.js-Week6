@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: blueviolet;
+  width: 125px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.avatar {
+  width: 100px;
+}
+
+.card > span {
+  color: #fff;
+}
