@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: solid 1px grey;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 10px 15px;
+  width: 400px;
+  margin: 10px auto;
+}
