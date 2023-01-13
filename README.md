@@ -1,4 +1,4 @@
-## Hello Brilliant Stream!✨
+## Hello Coders!✨
 
 Welcome to the Level 4 Full Stack Accelerator. You'll find the code examples used in our workshops, recommended tutorials, and other learning resources in this repository.
 
@@ -14,6 +14,7 @@ Happy Coding 🔥🧑‍💻
 - Week 2
   - References - [Git and JavaScript](week-02/README.md)
   - Resources - [Workshop Code](week-02)
+    <!--
 - Week 3
   - References - [More on JavaScript](week-03/README.md)
   - Resources - [Workshop Code](week-03)
@@ -39,9 +40,10 @@ Happy Coding 🔥🧑‍💻
   - References - [Databases and MySQL](week-10/README.md)
   - Resources - [Workshop Code](week-10)
 - Week 11
+
   - References - [Cryptography and CI/CD](week-11/README.md)
   - Resources - [Workshop Code](week-11)
-  <!--
+
 - Week 12
   - References - [](week-12/README.md)
   - Resources - [Workshop Code](week-12) -->
