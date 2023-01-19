@@ -14,6 +14,7 @@ input[type=email] {
   border-bottom: 2px solid purple;
 }
 
+
 input[type=radio] {
 width:20px
 }
@@ -44,7 +45,7 @@ label {
   background-color: pink;
 }
 
-
+/* ANIMATIONS & TRANSITIONS */
 /* @keyframes changeColour {
   from {background-color: red;}
   to {background-color: yellow;}

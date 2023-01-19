@@ -8,7 +8,6 @@ body {
   align-items: center;
   width: 100%;
   /* background-color: purple; */
-  /* height: 50vh; */
 }
 
 /* The left side of the home section */
@@ -52,12 +51,9 @@ nav > ul {
   color: #fff;
 }
 
-/* The active state of the nav-link class and 'a' elements */
-a:active,
-.nav-link:active {
-  color: red;
-}
 
+
+/* Change all H1 and P elements */
 h1 {
   font-size: 40px;
 }
@@ -85,4 +81,16 @@ p {
 .btn:active {
   background-color: red;
   color: white;
+}
+
+
+/* Style all 'a' elements */
+a {
+color: black;
+text-decoration: none;
+}
+
+/* The active state of all 'a' elements */
+a:active {
+  color: red;
 }
