@@ -1,0 +1,29 @@
+h2 {
+    font-size: 90px;
+    background-color: #ff7d7d;
+}
+
+p {
+    margin: 35px 0px;
+    color:brown;
+}
+
+/* CSS Classes */
+.food-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foods {
+    display: inline-block;
+    background-color: yellow;
+}
+
+.food {
+    background-color: blueviolet;
+}
+
+
+/* CSS IDs */
+#day-question {
+    font-weight: 700;
+}
