@@ -33,19 +33,6 @@ body {
   color: black;
 }
 
-@media screen and (max-width: 768px) {
-  .navbar,
-  .section {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navbar {
-    font-size: 12px;
-  }
-}
-
 /* Column container */
 .section {
   display: flex;
@@ -85,4 +72,18 @@ body {
   text-align: center;
   background: #553175;
   color: white;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .navbar,
+  .section {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    font-size: 12px;
+  }
 }
