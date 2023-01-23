@@ -11,10 +11,10 @@ Happy Coding 🔥🧑‍💻
 - Week 1
   - References - [HTML and CSS](week-01/README.md)
   - Resources - [Workshop Code](week-01)
-  <!--
 - Week 2
   - References - [Git and JavaScript](week-02/README.md)
   - Resources - [Workshop Code](week-02)
+<!--
 - Week 3
   - References - [More on JavaScript](week-03/README.md)
   - Resources - [Workshop Code](week-03)
