@@ -42,16 +42,16 @@ true || false; // true
     2. Shows the first name and last name to the console using the dot operator.
 */
 
-const person = {
-  firstName: "Sally",
-  lastName: "Rogers",
+const cat = {
+  firstName: "Garfield",
+  lastName: "the Cat",
   favouriteColour: "purple",
 };
 
-console.log(person.firstName, person.lastName);
+console.log(cat.firstName, cat.lastName);
 
 //-------------Exercise 3-------------
-console.log(`This is ${person.firstName} ${person.lastName} and their favourite colour is ${person.favouriteColour}`);
+console.log(`This is ${cat.firstName} ${cat.lastName} and their favourite colour is ${cat.favouriteColour}`);
 
 // Larger example
 const address = {
@@ -94,7 +94,7 @@ const newPerson = {
   favouriteNumber: 3,
   favouriteDay: "Friday",
 };
-console.log(newPerson);
+console.log(newPerson); // You may notice Chrome devtools displays the new value when you click into the object, but the old value in the line preview. Chrome is just showing you the actual latest values in the object, when you click into it.
 
 newPerson.favouriteFood = "Icecream";
 console.log(newPerson);
