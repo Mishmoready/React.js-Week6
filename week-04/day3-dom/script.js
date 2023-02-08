@@ -4,6 +4,14 @@
 
 // Colour change example
 let currentColour = 0;
+// function changeColour() {
+//   if (document.body.style.background === "blue") {
+//     document.body.style.background = "white";
+//   } else {
+//     document.body.style.background = "blue";
+//   }
+// }
+
 function changeColour() {
   const colourArray = ["white", "blue", "red", "green", "yellow", "orange", "pink"];
   if (currentColour === colourArray.length - 1) {
@@ -11,9 +19,11 @@ function changeColour() {
   } else {
     currentColour++;
   }
+  console.log(document.body.style.background);
   document.body.style.background = colourArray[currentColour];
 }
 
+// Selectors
 const helloWorldHeader = document.getElementById("helloWorldHeader");
 helloWorldHeader.style.fontSize = "12px";
 helloWorldHeader.textContent = "Look! My text content has changed.";
