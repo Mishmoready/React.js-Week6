@@ -27,11 +27,11 @@ class User {
 }
 
 // new  => Special keyword to call the constructor of the class
-const user1 = new User('Jon', 'Snow');
+const user1 = new User("Jon", "Snow");
 console.log(user1);
 console.log(user1.firstname, user1.lastname);
 
-const user2 = new User('Ned', 'Stark');
+const user2 = new User("Ned", "Stark");
 console.log(user2);
 console.log(user2.firstname, user2.lastname);
 
@@ -41,14 +41,15 @@ console.log(user2.firstname, user2.lastname);
  *
  */
 
+// Template - Blueprint
 class Person {
   constructor(name) {
     this.name = name;
   }
 }
 
-const otto = new Person('Otto');
+const otto = new Person("Otto");
 console.log(otto.name);
 
-const seb = new Person('Sebin');
+const seb = new Person("Sebin");
 console.log(seb.name);
