@@ -25,9 +25,8 @@ console.log('Square of the smallest number', Math.pow(smallest, 2)); // square i
     Console log the outputs.
  */
 
-
 // Math.random() => [0,1)     Here, 1 is not included. Upto 1
-// Math.random() x 10 => [0,10) . Here, 10 is not included. Upto 10
+// (Math.random() x 10) => [0,10) . Here, 10 is not included. Upto 10
 // (Math.random() x 10) + 1 => [1,11). 11 not included. Upto 11
 // Math.floor(Math.random()* 10) + 1) => whole numbers between 1 and 10 (both included)
 
