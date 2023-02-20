@@ -25,8 +25,12 @@ function fetchAPIData() {
       // clear existing text from the div
       showDataDiv.innerHTML = '';
       // create a list of the names * images received from the result
-      jsonData.data.forEach(person => {
-        showDataDiv.innerHTML +=  `<li>${person.first_name} ${person.last_name}</li>`;
-      })
+      jsonData.data.forEach((person) => {
+        console.log(person);
+        showDataDiv.innerHTML += `
+        <img src="${person.avatar}">
+        <li>${person.first_name} ${person.last_name}</li>
+        `;
+      });
     });
 }
