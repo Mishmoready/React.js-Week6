@@ -26,10 +26,10 @@ Happy Coding 🔥🧑‍💻
 - Week 6
   - References - [More React](week-06/README.md)
   - Resources - [Workshop Code](week-06)
-  <!--
 - Week 7
   - References - [More React and Material UI](week-07/README.md)
   - Resources - [Workshop Code](week-07)
+  <!--
 - Week 8
   - References - [Node.js](week-08/README.md)
   - Resources - [Workshop Code](week-08)
