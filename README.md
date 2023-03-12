@@ -29,13 +29,13 @@ Happy Coding 🔥🧑‍💻
 - Week 7
   - References - [More React and Material UI](week-07/README.md)
   - Resources - [Workshop Code](week-07)
-  <!--
 - Week 8
   - References - [Node.js](week-08/README.md)
   - Resources - [Workshop Code](week-08)
 - Week 9
   - References - [More NodeJS](week-09/README.md)
   - Resources - [Workshop Code](week-09)
+  <!--
 - Week 10
   - References - [Databases and MySQL](week-10/README.md)
   - Resources - [Workshop Code](week-10)
