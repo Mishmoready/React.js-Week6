@@ -5,10 +5,17 @@ const cors = require('cors'); // 1. import cors library.
 const app = express();
 app.use(cors()); // 2. allowing Cross Origin requests ( a security feature)
 
+
 app.get('/hello', (req, res) => {
   console.log('I have a GET request at /hello');
   console.log(req.url);
   res.json('My backend is great');
+});
+
+app.all('/hello', (req, res) => {
+  console.log('I have a GET request at /hello');
+  console.log(req.url);
+  res.status(405).send('Please sent a GET request');
 });
 
 app.get('/hi', (req, res) => {
@@ -24,6 +31,7 @@ app.get('/helloStatus', (req, res) => {
   res.status(302).json("I don't understand you"); // res.send()
 });
 
+// server
 app.get('/helloStatusAgain', (req, res) => {
   // Response is the HTTP response object that we’ll send to the client.
   // res.json('My backend is great'); // res.send()
