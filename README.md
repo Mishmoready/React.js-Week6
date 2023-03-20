@@ -35,10 +35,10 @@ Happy Coding 🔥🧑‍💻
 - Week 9
   - References - [More NodeJS](week-09/README.md)
   - Resources - [Workshop Code](week-09)
-  <!--
 - Week 10
   - References - [Databases and MySQL](week-10/README.md)
   - Resources - [Workshop Code](week-10)
+  <!--
 - Week 11
   - References - [Cryptography and CI/CD](week-11/README.md)
   - Resources - [Workshop Code](week-11)
