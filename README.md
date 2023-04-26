@@ -11,6 +11,7 @@ Happy Coding 🔥🧑‍💻
 - Week 1
   - References - [HTML and CSS](week-01/README.md)
   - Resources - [Workshop Code](week-01)
+  <!--
 - Week 2
   - References - [Git and JavaScript](week-02/README.md)
   - Resources - [Workshop Code](week-02)
@@ -38,7 +39,6 @@ Happy Coding 🔥🧑‍💻
 - Week 10
   - References - [Databases and MySQL](week-10/README.md)
   - Resources - [Workshop Code](week-10)
-  <!--
 - Week 11
   - References - [Cryptography and CI/CD](week-11/README.md)
   - Resources - [Workshop Code](week-11)
