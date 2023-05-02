@@ -2,7 +2,7 @@
 
 Welcome to the Level 4 Full Stack Accelerator. You'll find the code examples used in our workshops, recommended tutorials, and other learning resources in this repository.
 
-The content is structured week by week. Each week contains markdown files that contain the external resources (videos, tutorials, external code). For example, the code for the examples we've gone through in the first week can be seen under week-1. This repository will be updated as the course progresses.
+The content is structured week by week. Each week contains markdown files that contain the external resources (videos, tutorials, external code). For example, the code for the examples we've gone through in the first week can be seen under week-01. This repository will be updated as the course progresses.
 
 Happy Coding 🔥🧑‍💻
 
@@ -11,7 +11,7 @@ Happy Coding 🔥🧑‍💻
 - Week 1
   - References - [HTML and CSS](week-01/README.md)
   - Resources - [Workshop Code](week-01)
-  <!--
+<!--
 - Week 2
   - References - [Git and JavaScript](week-02/README.md)
   - Resources - [Workshop Code](week-02)
