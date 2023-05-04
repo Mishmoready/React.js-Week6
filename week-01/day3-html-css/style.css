@@ -18,12 +18,13 @@ p {
     background-color: yellow;
 }
 
+/* CSS Class */
 .food {
     background-color: blueviolet;
 }
 
 
-/* CSS IDs */
+/* CSS ID */
 #day-question {
     font-weight: 700;
 }
