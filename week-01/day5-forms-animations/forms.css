@@ -1,0 +1,82 @@
+input {
+  width: 40%;
+}
+
+label {
+  font-family: Tahoma, sans-serif;
+}
+
+/* CSS Attribute Selector. Here we're selecting all input elements where the type is "text" and also "email" */
+input[type=text],
+input[type=email] {
+  padding: 2px 2px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid purple;
+}
+
+
+input[type=radio] {
+width:20px
+}
+
+textarea {
+  border: 2px solid purple;
+}
+
+input[type=submit] {
+  background-color: purple;
+  color: white;
+  width:30%
+}
+
+/* Adjacent Sibling Selector (+) */
+/* The adjacent sibling selector is used to select an element that is directly after another specific element.
+Sibling elements must have the same parent element, and "adjacent" means "immediately following". */
+input[type=radio] + label {
+  color:purple
+}
+
+.label {
+  background-color: aqua;
+}
+
+#label {
+  background-color: red;
+}
+
+label {
+  background-color: pink;
+}
+
+/* ANIMATIONS & TRANSITIONS */
+/* @keyframes changeColour {
+  from {background-color: red;}
+  to {background-color: yellow;}
+} */
+
+@keyframes example {
+  0% {background-color: red; left:0px; top:0px;}
+  25% {background-color: yellow; left:200px; top:0px;}
+  50% {background-color: blue; left:200px; top:200px;}
+  75% {background-color: green; left:0px; top:200px;}
+  100% {background-color: red; left:0px; top:0px;}
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: coral;
+  transition: width 2s, height 2s;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+/* div:hover {
+  width: 200px;
+  height: 200px;
+} */
+
+
