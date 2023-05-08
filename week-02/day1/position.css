@@ -1,0 +1,66 @@
+/* default position: static */
+.parent {
+   position:relative;
+     height:2000px
+    }
+/* 
+2. relative : Same as static. But lets you add top, right, bottom, left. Makes it move relative to it's normal position 
+3. absolute:  Parent has to be not static. absolute for top, right, bottom, left to work. Else it considers the main html element as the parent . 
+4. fixed : Fixed to a place. Doesn't care about the parent. Always considers html element as the parent. Stays there when scrolled. 
+5. sticky: Relative ( when normal) + fixed ( when scrolled). The values for top, right, bottom, left become active when scrolled. 
+*/
+  
+    .child-one {
+   position: sticky;
+   top:20px;
+
+    }
+  
+  
+   .child-two {
+   
+    }
+    /* 6.z-index: a.must set position not static. b. the bigger number wins*/
+    .child-three {
+        position:relative;
+        z-index: 1;
+   
+    }
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* color styles */
+  
+  .parent {
+    background-color: #0fa8f9;
+    border:#0fa8f9 5px solid; 
+  }
+  
+  .child-one {
+    background-color: #76fe77;
+    border:#76fe77 5px solid; 
+  }
+  .child-two {
+    background-color: #f37674;
+    border:#f37674 5px solid; 
+  }
+  .child-three {
+    background-color: #f576e7;
+    border:#f576e7 5px solid; 
+  }
+  
+  
+  
+  
+  
+  
+  
