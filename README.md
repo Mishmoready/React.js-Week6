@@ -14,10 +14,10 @@ Happy Coding 🔥🧑‍💻
 - Week 2
   - References - [Git and JavaScript](week-02/README.md)
   - Resources - [Workshop Code](week-02)
-<!--
 - Week 3
   - References - [More on JavaScript](week-03/README.md)
   - Resources - [Workshop Code](week-03)
+<!--
 - Week 4
   - References - [More on JavaScript part 2](week-04/README.md)
   - Resources - [Workshop Code](week-04)
