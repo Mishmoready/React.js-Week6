@@ -61,7 +61,7 @@ const funcWithParamsExpression = function (num1, num2) {
 
 function isStringEmpty(string) {
   const stringToCheck = string;
-  if (stringToCheck) {
+  if (stringToCheck.length === 0) {
     return true;
   } else {
     return false;
@@ -118,4 +118,3 @@ function timeInSeconds(minutes) {
 
 const userInputMinutes = parseInt(prompt("Enter in your minutes")); // parseInt grabs the integers if text is included after the integer
 alert(`${userInputMinutes} minutes is ${timeInSeconds(userInputMinutes)} seconds.`);
-
