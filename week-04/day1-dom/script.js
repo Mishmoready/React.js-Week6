@@ -18,7 +18,8 @@ function changeColour() {
   if (currentColour === colourArray.length - 1) {
     currentColour = 0;
   } else {
-    currentColour++;
+    // currentColour = currentColour + 1;
+    currentColour++; // shorthand for the above
   }
   console.log(document.body.style.background);
   document.body.style.background = colourArray[currentColour];
@@ -58,24 +59,25 @@ myDiv.addEventListener("mouseover", function () {
 
 //// So, we create an external function that we can call in as many event listeners as we want.
 //// But, as it is currently written, it will only ever affect the myDiv element - not very resueable.
-// function changeToPurple() {
-//   myDiv.style.background = "purple";
+// function changeToYellow() {
+//   myDiv.style.background = "yellow";
 // }
 
 // A function that we can use for more than one event listener that is now DYNAMIC using the event.target property
-function changeToPurple(event) {
+function changeToYellow(event) {
   console.log(event);
   console.log(event.target);
-  event.target.style.background = "purple";
+  event.target.style.background = "yellow";
 }
 
-myDiv.addEventListener("mouseout", changeToPurple);
-headerEl.addEventListener("mouseover", changeToPurple); // we defined helloWorldHeader earlier
+myDiv.addEventListener("mouseout", changeToYellow);
+headerEl.addEventListener("mouseover", changeToYellow); // we defined headerEl earlier
 // ----------------------------------------
 
 // Exercise 2
 const inputEl = document.querySelector("input");
 const characterCount = document.querySelector("#character-count");
+
 inputEl.addEventListener("input", logValue);
 function logValue(e) {
   console.log(e.target.value.length);
