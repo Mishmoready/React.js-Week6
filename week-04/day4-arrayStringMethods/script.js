@@ -78,6 +78,27 @@ const result = array.map(num=>num*2)
 console.log(result)
 */
 
+// filter()
+const icecreamCosts = [2.95, 4, 5];
+const expensiveIcecreamCosts = icecreamCosts.filter(function (
+  cost,
+  index,
+  array
+) {
+  return cost > 3;
+});
+console.log(expensiveIcecreamCosts); //results == [4, 5]
+//filter() exercise
+const array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+/*Use filter() method get this array [2,4,6,8,10]
+Hint: % 
+answer:
+const evenNumbers = numbers.filter((number) => {
+  return number % 2 === 0; // Check if number is even
+});
+console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
+*/
+
 // sort()
 const numbers = [5, 3, 8, 1, 2];
 const a = numbers.sort();
@@ -107,27 +128,6 @@ const icecreams1 = ["vanilla", "rainbow", "chocolate", "matcha"];
 //Using sort() method to get this array below:
 //[ 'chocolate', 'matcha', 'rainbow', 'vanilla' ]
 //answer: icecreams1.sort()
-
-// filter()
-const icecreamCosts = [2.95, 4, 5];
-const expensiveIcecreamCosts = icecreamCosts.filter(function (
-  cost,
-  index,
-  array
-) {
-  return cost > 3;
-});
-console.log(expensiveIcecreamCosts); //results == [4, 5]
-//filter() exercise
-const array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-/*Use filter() method get this array [2,4,6,8,10]
-Hint: % 
-answer:
-const evenNumbers = numbers.filter((number) => {
-  return number % 2 === 0; // Check if number is even
-});
-console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
-*/
 
 // indexOf()
 const icecreamsIndexOf = ["vanilla", "chocolate", "matcha"];
