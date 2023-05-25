@@ -25,6 +25,8 @@ function sayHi() {
 sayHi();
 // sayHi2(); // it is block scoped so we can't access it
 
+
+
 // ------------------ ARROW FUNCTIONS ------------------
 // Traditional Function
 // function sum(firstNum, secondNum) {
@@ -92,6 +94,13 @@ let arr2=["A","B","C"]
 
 const newArray = [...arr1,...arr2]
 console.log(newArray)
+
+// Some JavaScript shorthands
+// const num1 = Number("100");
+// const num2 = Number("100.01");
+const num1 = +"100"; // converts from string to integer number
+const num2 = +"100.01"; // converts from string to decimal number
+console.log(num1, num2); // check with the typeof operator
   
 
 // ------------------ REGEX ------------------
