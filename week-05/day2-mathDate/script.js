@@ -60,7 +60,7 @@ const myMonth1 = new Intl.DateTimeFormat("en", { month: "long" }).format(myBirth
 console.log("My birth date is the " + myBirthDay.getDate() + "th of " + myMonth1);
 
 // -----------Exercise 2-----------
-
+// Solution 1
 const num1 = 5,
   num2 = 35,
   num3 = 26;
@@ -70,11 +70,11 @@ console.log("The smallest of the three favorite numbers", smallest);
 console.log("The largest of the three favorite numbers", largest);
 console.log("Square of the smallest number", Math.pow(smallest, 2));
 
-// Using an array
+// Solution 2: Using an array
 const myFaveNumbers = [5, 10, 16];
-console.log(Math.min(...myFaveNumbers));
-console.log(Math.max(...myFaveNumbers));
-console.log(myNumber * myNumber, Math.pow(myNumber, 2), myNumber ** 2);
+const smallest1 = Math.min(...myFaveNumbers);
+const largest1 = Math.max(...myFaveNumbers);
+console.log(smallest1 * smallest1, Math.pow(smallest1, 2), smallest1 ** 2); // these are three ways of achieving the same thing
 
 // Extra: Randomly pick a fruit
 const fruits = ["apple", "mango", "banana"];
