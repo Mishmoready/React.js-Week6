@@ -6,29 +6,41 @@
 
   <body>
     <h1>Shopping List</h1>
-
-    <input type="text" id="item" placeholder="Item. e.g. Tomato" /> x
-    <input type="number" id="qty" placeholder="Quantity. e.g. 1" />
-    <button onclick="addItem()">Add item to list</button>
+    <form>
+      <input type="text" id="item" placeholder="Item. e.g. Tomato" /> x
+      <input type="number" id="quantity" placeholder="Quantity. e.g. 1" />
+      <button onclick="addItem(event)">Add item to list</button>
+    </form>
     <p id="shopping-list-display"></p>
     <hr />
     <h1>Shopping Basket</h1>
     <p>
       Enter all the products you've put into your shopping basket, separated by commas, to see if you've forgotten anything.
     </p>
-    <input type="text" id="shopping-basket" placeholder="e.g. tomato,eggs,milk" />
-    <input type="button" value="Add item(s) to basket" onclick="addToBasket();" />
-    <p id="forgotten-items-display"></p>
+    <form>
+      <input type="text" id="shopping-basket" placeholder="e.g. tomato,eggs,milk" />
+      <button onclick="addToBasket(event)">Add item(s) to basket</button>
+    </form>
+    <p id="items-still-to-buy-display"></p>
     <script>
+      // Selecting Elements
+      const itemInputEl = document.getElementById("item");
+      const quantityInputEl = document.getElementById("quantity");
+      const shoppingListDisplayEl = document.getElementById("shopping-list-display");
+      const shoppingBasketEl = document.getElementById("shopping-basket");
+      const itemsStillToBuyEl = document.getElementById("items-still-to-buy-display");
+
       //shoppingList is an array [] of objects { item, quantity }
       const shoppingList = [];
 
       //-------------------------Shopping List -------------------------
-      function addItem() {
+      function addItem(event) {
+        //Prevent the default behaviour of our button (which is to submit the form and refresh the page)
+        event.preventDefault();
         //Create an Object and then add the object into shoppingList array
         const itemToAdd = {
-          item: document.getElementById("item").value,
-          quantity: document.getElementById("qty").value,
+          item: itemInputEl.value,
+          quantity: quantityInputEl.value,
         };
         shoppingList.push(itemToAdd);
         displayListItems();
@@ -36,12 +48,12 @@
 
       function displayListItems() {
         //clear the display
-        document.getElementById("shopping-list-display").innerHTML = "";
+        shoppingListDisplayEl.innerHTML = "";
         //for each item in the shoppingList array, display item, quantity, and a delete button
-        for (const shoppingListEl of shoppingList) {
+        for (const itemEl of shoppingList) {
           //update the HTML to what is currently rendered, plus a new string
-          document.getElementById("shopping-list-display").innerHTML += `${shoppingListEl.item} x ${shoppingListEl.quantity}
-          <span style="cursor: pointer" onclick="deleteItem(${shoppingList.indexOf(shoppingListEl)})">&#10062</span><br/>`;
+          shoppingListDisplayEl.innerHTML += `${itemEl.item} x ${itemEl.quantity}
+                <span style="cursor: pointer" onclick="deleteItem(${shoppingList.indexOf(itemEl)})">&#10062</span><br/>`;
         }
       }
 
@@ -52,28 +64,29 @@
       }
 
       //-------------------------Shopping Basket-------------------------
-      function addToBasket() {
+      function addToBasket(event) {
+        event.preventDefault();
         //split() splits the inputted form data by commas, and returns a new array
-        const basket = document.getElementById("shopping-basket").value.toLowerCase().split(",");
+        const basket = shoppingBasketEl.value.toLowerCase().split(",");
 
         //filter() returns a new array of elements that contain pass a condition
-        const itemsStillToBuy = shoppingList.filter(function (shoppingListEl) {
+        const itemsStillToBuy = shoppingList.filter(function (itemEl) {
           // Condition: Check to see if the basket array includes the shopping list item (of the currently looping element).
           // If the element does exist in the basket array, that must mean we already have it in our basket, so do NOT return
           // true and do NOT add the current element to the filtered array (Because of the NOT operator)
-          return !basket.includes(shoppingListEl.item.toLowerCase());
+          return !basket.includes(itemEl.item.toLowerCase());
         });
 
         //if itemsStillToBuy array is empty, then display a success message
         if (itemsStillToBuy.length === 0) {
-          document.getElementById("forgotten-items-display").innerHTML = "------YOU GOT EVERYTHING 😏------";
+          itemsStillToBuyEl.innerHTML = "------YOU GOT EVERYTHING 😏------";
         } else {
           //if itemsStillToBuy is not empty, then display all items in the itemsStillToBuy array
-          document.getElementById("forgotten-items-display").innerHTML = "Here are the items you still need to get:<br/>";
+          itemsStillToBuyEl.innerHTML = "Here are the items you still need to get:<br/>";
           //display itemsStillToBuy
-          itemsStillToBuy.forEach(function (item) {
+          itemsStillToBuy.forEach(function (itemEl) {
             //update the HTML to what is currently rendered, plus a new string
-            document.getElementById("forgotten-items-display").innerHTML += `${item.item} x ${item.quantity} <br/>`;
+            itemsStillToBuyEl.innerHTML += `${itemEl.item} x ${itemEl.quantity} <br/>`;
           });
         }
       }
