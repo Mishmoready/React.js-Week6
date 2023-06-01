@@ -128,8 +128,6 @@ const icecreams1 = ["vanilla", "rainbow", "chocolate", "matcha"];
 //[ 'chocolate', 'matcha', 'rainbow', 'vanilla' ]
 //answer: icecreams1.sort()
 
-<<<<<<< HEAD
-=======
 // filter()
 const icecreamCosts = [2.95, 4, 5];
 const expensiveIcecreamCosts = icecreamCosts.filter(function (cost, index, array) {
@@ -147,7 +145,6 @@ const evenNumbers = numbers.filter((number) => {
 console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
 */
 
->>>>>>> fb4778f4b3621c9aef09613d311f1dcde9a50a6e
 // indexOf()
 const icecreamsIndexOf = ["vanilla", "chocolate", "matcha"];
 let chocIndex = icecreamsIndexOf.indexOf("chocolate");
