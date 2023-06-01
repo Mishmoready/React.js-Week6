@@ -22,7 +22,7 @@ console.log(shiftMethod); //Tiramisu   removes and returns first item.
 // split(): STRING method: string to array
 const icecreamsSplit = "vanilla chocolate matcha";
 const resultsIcecreamSplit = icecreamsSplit.split(" ", 2);
-console.log(resultsIcecreamSplit); // chocolate matcha
+console.log(resultsIcecreamSplit); // vanilla choclate
 
 // join(): array to string
 const icecreamsJoin = ["vanilla", "chocolate", "matcha"];
@@ -36,7 +36,7 @@ console.log(resultsNumberSlice); //return a new sliced array
 console.log(numberSlice); //not affect origin array
 //slice() exercsise:
 //How can I get ["JS"] by slice() method?
-const array = ["html", "css", "JS", "react"]; 
+const array = ["html", "css", "JS", "react"];
 
 // splice() ARRAY method
 const numberSplice = [0, 1, 2, 3, 4, 5];
@@ -51,7 +51,6 @@ console.log(array2);
 //splice() exercsise:
 const array1 = ["html", "css", "react"];
 //How can I put "JS" back in array1 after "css" by splice() method?
-
 
 // forEach()
 const icecreamsForEach = ["vanilla", "chocolate", "blueberry"];
@@ -71,7 +70,7 @@ const orderedIcecreams = icecreamsMap.map(function (icecream, index) {
 });
 console.log(orderedIcecreams); // ['Flavour 0: vanilla', 'Flavour 1: chocolate', 'Flavour 2: blueberry']
 //map exercise
-const array3 = [1,2,3,4,5]
+const array3 = [1, 2, 3, 4, 5];
 /*Use map() method to get this array [2,4,6,8,10]
 answer:
 const result = array.map(num=>num*2)
@@ -129,6 +128,26 @@ const icecreams1 = ["vanilla", "rainbow", "chocolate", "matcha"];
 //[ 'chocolate', 'matcha', 'rainbow', 'vanilla' ]
 //answer: icecreams1.sort()
 
+<<<<<<< HEAD
+=======
+// filter()
+const icecreamCosts = [2.95, 4, 5];
+const expensiveIcecreamCosts = icecreamCosts.filter(function (cost, index, array) {
+  return cost > 3;
+});
+console.log(expensiveIcecreamCosts); //results == [4, 5]
+//filter() exercise
+const array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+/*Use filter() method get this array [2,4,6,8,10]
+Hint: % 
+answer:
+const evenNumbers = numbers.filter((number) => {
+  return number % 2 === 0; // Check if number is even
+});
+console.log(evenNumbers); // Output: [2, 4, 6, 8, 10]
+*/
+
+>>>>>>> fb4778f4b3621c9aef09613d311f1dcde9a50a6e
 // indexOf()
 const icecreamsIndexOf = ["vanilla", "chocolate", "matcha"];
 let chocIndex = icecreamsIndexOf.indexOf("chocolate");
@@ -136,8 +155,8 @@ console.log(chocIndex); // 1
 
 // includes()
 const arrayOfThings = ["books", "pens", "paper", "pencils", "words"];
-const guess = arrayOfThings.includes("shoe")
-console.log(guess);//false
+const guess = arrayOfThings.includes("shoe");
+console.log(guess); //false
 
 //create a prompt and let user to guess the element in the array above
 // console true or false
@@ -164,24 +183,27 @@ console.log(someAgesOver30); // true
 //version E
 let s = "good MORNING to yoU";
 //change all the letter to lower case
-let b = s.toLowerCase()
-console.log(b)
+let b = s.toLowerCase();
+console.log(b);
 //convert sentance to Array
-let c = b.split(" ")
-console.log(c)
-//change first letter of each word to uppercase 
-let d = c.map(word=> word[0].toUpperCase() + word.slice(1) )
-console.log(d)
+let c = b.split(" ");
+console.log(c);
+//change first letter of each word to uppercase
+let d = c.map((word) => word[0].toUpperCase() + word.slice(1));
+console.log(d);
 //convert array to string
-let e = d.join(" ")
-console.log(e)
+let e = d.join(" ");
+console.log(e);
 //combine them together into one function
-function capitalise (sentance){
-  return sentance.toLowerCase().split(" ").map(word=> word[0].toUpperCase() + word.slice(1)).join(" ") 
+function capitalise(sentance) {
+  return sentance
+    .toLowerCase()
+    .split(" ")
+    .map((word) => word[0].toUpperCase() + word.slice(1))
+    .join(" ");
 }
 
-capitalise("hoW aRe yOu tOdAy?")
-
+capitalise("hoW aRe yOu tOdAy?");
 
 //other solution:
 // VERSION 1
@@ -227,5 +249,3 @@ const convertWordCaseV3 = function (sentence) {
     .join(" ");
 };
 console.log(convertWordCaseV3("good MORNING to yoU"));
-
-  

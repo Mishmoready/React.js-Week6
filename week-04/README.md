@@ -15,13 +15,6 @@
 - [4. Scope](#4-scope)
   - [4.1. JavaScript Scope (Local vs Global)](#41-javascript-scope-local-vs-global)
   - [4.2. javaScript Variables Explained. Var, Let and Const with examples.](#42-javascript-variables-explained-var-let-and-const-with-examples)
-- [5. Object Oriented Programming (OOP)](#5-object-oriented-programming-oop)
-  - [5.1. Object-oriented Programming in 7 minutes | Mosh](#51-object-oriented-programming-in-7-minutes--mosh)
-  - [5.2. Object-oriented Programming in JavaScript: Made Super Simple | Mosh](#52-object-oriented-programming-in-javascript-made-super-simple--mosh)
-  - [5.3. JavaScript OOP Crash Course (ES5 & ES6)](#53-javascript-oop-crash-course-es5--es6)
-  - [5.4. What are Classes, Objects, and Constructors?](#54-what-are-classes-objects-and-constructors)
-  - [5.5. What is THIS in JavaScript? in 100 seconds](#55-what-is-this-in-javascript-in-100-seconds)
-  - [5.6. An Encounter with JavaScript Objects](#56-an-encounter-with-javascript-objects)
 
 ## 1. Array Methods
 
@@ -93,35 +86,3 @@
 
 - https://www.youtube.com/watch?v=J0y6XXdm4KI&t=156s&ab_channel=CodewithAniaKub%C3%B3w 5:37
   <img src="https://img.youtube.com/vi/J0y6XXdm4KI/maxresdefault.jpg" width=480>
-
-## 5. Object Oriented Programming (OOP)
-
-### 5.1. Object-oriented Programming in 7 minutes | Mosh
-
-- https://www.youtube.com/watch?v=pTB0EiLXUC8&ab_channel=ProgrammingwithMosh 7:33
-  <img src="https://img.youtube.com/vi/pTB0EiLXUC8/maxresdefault.jpg" width=480>
-
-### 3.2. Object-oriented Programming in JavaScript: Made Super Simple | Mosh
-
-- https://www.youtube.com/watch?v=PFmuCDHHpwk&ab_channel=ProgrammingwithMosh 1:02:48
-  <img src="https://img.youtube.com/vi/PFmuCDHHpwk/maxresdefault.jpg" width=480>
-
-### 5.3. JavaScript OOP Crash Course (ES5 & ES6)
-
-- https://www.youtube.com/watch?v=vDJpGenyHaA&ab_channel=TraversyMedia 40:20
-  <img src="https://img.youtube.com/vi/vDJpGenyHaA/maxresdefault.jpg" width=480>
-
-### 5.4. What are Classes, Objects, and Constructors?
-
-- https://www.youtube.com/watch?v=5AWRivBk0Gw&ab_channel=WebDevSimplified 4:21
-  <img src="https://img.youtube.com/vi/5AWRivBk0Gw/maxresdefault.jpg" width=480>
-
-### 5.5. What is THIS in JavaScript? in 100 seconds
-
-- https://www.youtube.com/watch?v=YOlr79NaAtQ&ab_channel=Fireship 6:37
-  <img src="https://img.youtube.com/vi/YOlr79NaAtQ/maxresdefault.jpg" width=480>
-
-### 5.6. An Encounter with JavaScript Objects
-
-- https://www.youtube.com/watch?v=napDjGFjHR0&ab_channel=Fireship 10:37
-  <img src="https://img.youtube.com/vi/napDjGFjHR0/maxresdefault.jpg" width=480>
