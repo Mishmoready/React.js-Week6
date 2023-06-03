@@ -1,4 +1,4 @@
-# Week 4 - DOM, Scope, REGEX, JQuery, Array Methods, OOP <!-- omit in toc -->
+# Week 4 - DOM and more Advanced JavaScript <!-- omit in toc -->
 
 - [1. Array Methods](#1-array-methods)
   - [1.1. JavaScript Higher Order Functions & Arrays](#11-javascript-higher-order-functions--arrays)
@@ -61,28 +61,31 @@
 ### 3.1. Regular Expressions (RegEx) in 100 Seconds
 
 - https://www.youtube.com/watch?v=sXQxhojSdZM&ab_channel=Fireship 2:21
+
   <img src="https://img.youtube.com/vi/sXQxhojSdZM/maxresdefault.jpg" width=480>
 
 ### 3.2. Learn Regular Expressions (Regex) - Crash Course for Beginners
 
 - https://www.youtube.com/watch?v=ZfQFUJhPqMM&ab_channel=freeCodeCamp.org 45:37
+
   <img src="https://img.youtube.com/vi/ZfQFUJhPqMM/maxresdefault.jpg" width=480>
 
 ### 3.3. Regular Expressions (Regex) in JavaScript - tutorial
 
 - https://www.youtube.com/watch?v=909NfO1St0A&t=533s&ab_channel=freeCodeCamp.org 17:15
-  <img src="https://img.youtube.com/vi/909NfO1St0A/maxresdefault.jpg" width=480>
 
-<!-- eeee -->
+  <img src="https://img.youtube.com/vi/909NfO1St0A/maxresdefault.jpg" width=480>
 
 ## 4. Scope
 
 ### 4.1. JavaScript Scope (Local vs Global)
 
 - https://www.youtube.com/watch?v=iJKkZA215tQ&ab_channel=ProgrammingwithMosh 5:42
+
   <img src="https://img.youtube.com/vi/iJKkZA215tQ/maxresdefault.jpg" width=480>
 
 ### 4.2. javaScript Variables Explained. Var, Let and Const with examples.
 
 - https://www.youtube.com/watch?v=J0y6XXdm4KI&t=156s&ab_channel=CodewithAniaKub%C3%B3w 5:37
+
   <img src="https://img.youtube.com/vi/J0y6XXdm4KI/maxresdefault.jpg" width=480>

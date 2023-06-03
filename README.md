@@ -12,21 +12,21 @@ Happy Coding 🔥🧑‍💻
   - References - [HTML and CSS](week-01/README.md)
   - Resources - [Workshop Code](week-01)
 - Week 2
-  - References - [Git and JavaScript](week-02/README.md)
+  - References - [Git 1.0 and Intro to JavaScript](week-02/README.md)
   - Resources - [Workshop Code](week-02)
 - Week 3
-  - References - [More on JavaScript](week-03/README.md)
+  - References - [JavaScript Basics](week-03/README.md)
   - Resources - [Workshop Code](week-03)
-<!--
 - Week 4
-  - References - [More on JavaScript part 2](week-04/README.md)
+  - References - [DOM and more Advanced JavaScript](week-04/README.md)
   - Resources - [Workshop Code](week-04)
 - Week 5
-  - References - [React](week-05/README.md)
+  - References - [OOP, Git 2.0, Intro To React](week-05/README.md)
   - Resources - [Workshop Code](week-05)
 - Week 6
-  - References - [More React](week-06/README.md)
+  - References - [More React, Material-UI](week-06/README.md)
   - Resources - [Workshop Code](week-06)
+  <!--
 - Week 7
   - References - [More React and Material UI](week-07/README.md)
   - Resources - [Workshop Code](week-07)

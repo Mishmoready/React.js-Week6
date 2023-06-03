@@ -1,4 +1,4 @@
-# Week 3 - Comparisons, Conditionals, Logical Operators, Booleans, Objects, Arrays, Loops, Functions, String Methods
+# Week 3 - JavaScript Basics
 
  <!-- omit in toc -->
 
@@ -8,20 +8,23 @@
 - [2. Functions](#2-functions)
   - [2.1. JavaScript Functions](#21-javascript-functions)
   - [2.2. Javascript Functions & Parameters | Javascript Tutorial For Beginners](#22-javascript-functions--parameters--javascript-tutorial-for-beginners)
+- [3. JavaScript Challenges](#3-javascript-challenges)
 
 ## 1. Datatypes
 
 ### 1.1. Data Types - Beau teaches JavaScript
 
 - https://www.youtube.com/watch?v=808eYu9B9Yw&ab_channel=freeCodeCamp.org 6:33
+
   <img src="https://img.youtube.com/vi/808eYu9B9Yw/maxresdefault.jpg" width=480>
 
 ### 1.2. Javascript Variables & Data Types
 
 - https://www.youtube.com/watch?v=edlFjlzxkSI&ab_channel=DevEd 15:12
+
   <img src="https://img.youtube.com/vi/edlFjlzxkSI/maxresdefault.jpg" width=480>
 
-## 2 Functions
+## 2. Functions
 
 ### 2.1. JavaScript Functions
 
@@ -29,8 +32,15 @@
 
   <img src="https://img.youtube.com/vi/N8ap4k_1QEQ/maxresdefault.jpg" width=480>
 
-  ### 2.2. Javascript Functions & Parameters | Javascript Tutorial For Beginners
+### 2.2. Javascript Functions & Parameters | Javascript Tutorial For Beginners
 
 - https://www.youtube.com/watch?v=xjAu2Y2nJ34&ab_channel=DevEd 5:37
 
   <img src="https://img.youtube.com/vi/xjAu2Y2nJ34/maxresdefault.jpg" width=480>
+
+## 3. JavaScript Challenges
+
+- [2500+ JavaScript Practice Challenges](https://edabit.com/challenges/javascript)
+- [JavaScript Challenges](https://www.jschallenger.com/)
+- [Basic JavaScript Practice](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript)
+- [30 days of JavaScript](https://javascript30.com/)
