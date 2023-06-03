@@ -24,11 +24,11 @@ Happy Coding 🔥🧑‍💻
   - References - [OOP, Git 2.0, Intro To React](week-05/README.md)
   - Resources - [Workshop Code](week-05)
 - Week 6
-  - References - [More React, Material-UI](week-06/README.md)
+  - References - [React](week-06/README.md)
   - Resources - [Workshop Code](week-06)
   <!--
 - Week 7
-  - References - [More React and Material UI](week-07/README.md)
+  - References - [More React and Material-UI](week-07/README.md)
   - Resources - [Workshop Code](week-07)
 - Week 8
   - References - [Node.js](week-08/README.md)
