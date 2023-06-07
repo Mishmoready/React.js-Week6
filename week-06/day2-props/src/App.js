@@ -1,6 +1,7 @@
 import "./App.css";
 import Greeting from "./Greeting.js";
 import Car from "./Car";
+import Person from "./Person";
 
 function App() {
   // Example 1
@@ -37,7 +38,7 @@ function App() {
   ];
 
   const mappedFruitOrder = fruitOrder.map(function (fruit, index) {
-    return `${index + 1}) ${fruit.units} units of ${fruit.name} costs $${(fruit.price * fruit.units).toFixed(2)}`;
+    return `${index + 1}) ${fruit.qty} units of ${fruit.name} costs $${(fruit.singlePrice * fruit.singlePrice).toFixed(2)}`;
   });
   console.log(mappedFruitOrder);
 
@@ -79,16 +80,29 @@ function App() {
   } = myObj;
   console.log(username, email, companyName);
 
+  // Array Destructuring
+  const anArray = ["Laide", "Gabriel", "Jets"];
+  // const el1 = anArray[0];
+  // const el3 = anArray[2];
+  const [first, , third] = anArray;
+
+  console.log(first);
+
   return (
     <div className="App">
       <Greeting />
       {/* Passing data to a child component */}
-      <Car carName="Toyota" />
+      <Car carName="Toyota" model="Corolla" />
+
+      {/* Mapping through the users array */}
       {users.map(function (user) {
         return <div>{user.name}</div>;
       })}
 
+      {/* Anything in curly braces will be evaluated */}
       {[<p>Oh!</p>, <p>what a beautiful morning</p>]}
+
+      <Person name="Buddy" age={50} />
     </div>
   );
 }
