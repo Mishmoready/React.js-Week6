@@ -7,6 +7,7 @@ export default function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("Form submitted!");
+    setInputList();
   };
 
   function handleChange(event) {
@@ -19,6 +20,7 @@ export default function Form() {
     <>
       <label>Input field</label>
       <h2>Add an item</h2>
+
       <form onSubmit={handleSubmit}>
         <div>
           <input type="text" onChange={handleChange}></input>
