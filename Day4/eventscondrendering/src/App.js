@@ -1,6 +1,7 @@
 import "./App.css";
 import Greeting from "./components/Greeting";
 import Button from "./common/Button";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Button> Harder</Button>
       <Button> Press</Button>
       <Button className="my-other-button"> Me</Button>
+
+      <Form></Form>
     </div>
   );
 }
