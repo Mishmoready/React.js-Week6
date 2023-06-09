@@ -6,8 +6,12 @@ export default function Form() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log("Form submitted!");
-    setInputList();
+    // const temp = [...inputList, val];
+    // console.log(temp);
+
+    setInputList(function (prevState) {
+      return [...prevState, val];
+    });
   };
 
   function handleChange(event) {
